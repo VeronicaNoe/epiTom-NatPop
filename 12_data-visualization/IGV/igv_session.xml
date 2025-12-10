@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="annotation/ITAG2.4_genomic.fasta" locus="All" version="8">
+    <Resources>
+        <Resource path="annotation/ITAG2.4_gene_models.gff3" type="gff3"/>
+        <Resource path="annotation/dmr_associated.sorted.bed" type="bed"/>
+        <Resource path="data/S-cheLA0483_leaf_Biseq_CG.bw" type="bw"/>
+        <Resource path="annotation/SL2.50_REPET.sorted.gff3" type="gff3"/>
+    </Resources>
+    <Panel height="199" name="DataPanel" width="1901">
+        <Track attributeKey="S-cheLA0483_leaf_Biseq_CG.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,153,153" fontSize="10" id="/mnt/data6/vibanez/IGV/data/S-cheLA0483_leaf_Biseq_CG.bw" name="S-cheLA0483" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.8876836" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="599" name="FeaturePanel" width="1901">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="dmr_associated.sorted.bed" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;5.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/dmr_associated.sorted.bed" name="dmr_associated.sorted.bed" visible="true"/>
+        <Track attributeKey="ITAG2.4_gene_models.gff3" clazz="org.broad.igv.track.FeatureTrack" color="0,51,204" colorScale="ContinuousColorScale;0.0;2412.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/ITAG2.4_gene_models.gff3" name="ITAG2.4_gene_models.gff3" visible="true"/>
+        <Track attributeKey="SL2.50_REPET.sorted.gff3" clazz="org.broad.igv.track.FeatureTrack" color="204,204,0" featureVisibilityWindow="3245855" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/SL2.50_REPET.sorted.gff3" name="SL2.50_REPET.sorted.gff3" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.2496894409937888"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

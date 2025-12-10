@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/mnt/data6/vibanez/IGV/annotation/ITAG2.4_genomic.fasta" version="8">
+<Resources>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq_CG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq_CHG.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq_CHH.bw" type="bw"/>
+	<Resource path="/mnt/data6/vibanez/IGV/annotation/SL2.50_REPET.gff3" type="gff3"/>
+	<Resource path="/mnt/data6/vibanez/IGV/annotation/ITAG2.4_gene_models.gff3" type="gff3"/>
+	<Resource path="/mnt/data6/vibanez/IGV/annotation/ch01_C-DMR-loci_collapsed.bed" type="bed"/>
+	<Resource path="/mnt/data6/vibanez/IGV/annotation/ch01_CG-DMR-loci_collapsed.bed" type="bed"/>
+</Resources>
+<Panel height="4840" name="DataPanel" width="1901">
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq" name="P12" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="P12_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq_CG.bw" name="P12_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="P12_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq_CHG.bw" name="P12_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="P12_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P12_leaf_Biseq_CHH.bw" name="P12_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq" name="P13" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="P13_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq_CG.bw" name="P13_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="P13_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq_CHG.bw" name="P13_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="P13_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P13_leaf_Biseq_CHH.bw" name="P13_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq" name="P38" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="P38_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq_CG.bw" name="P38_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="P38_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq_CHG.bw" name="P38_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="P38_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P38_leaf_Biseq_CHH.bw" name="P38_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq" name="P79" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="P79_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq_CG.bw" name="P79_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="P79_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq_CHG.bw" name="P79_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="P79_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/P79_leaf_Biseq_CHH.bw" name="P79_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq" name="S-lycEA00157" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA00157_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq_CG.bw" name="S-lycEA00157_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA00157_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq_CHG.bw" name="S-lycEA00157_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA00157_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00157_leaf_Biseq_CHH.bw" name="S-lycEA00157_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq" name="S-lycEA00371" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA00371_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq_CG.bw" name="S-lycEA00371_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA00371_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq_CHG.bw" name="S-lycEA00371_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA00371_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00371_leaf_Biseq_CHH.bw" name="S-lycEA00371_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq" name="S-lycEA00375" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA00375_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq_CG.bw" name="S-lycEA00375_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA00375_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq_CHG.bw" name="S-lycEA00375_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA00375_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00375_leaf_Biseq_CHH.bw" name="S-lycEA00375_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq" name="S-lycEA00488" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA00488_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq_CG.bw" name="S-lycEA00488_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA00488_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq_CHG.bw" name="S-lycEA00488_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA00488_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00488_leaf_Biseq_CHH.bw" name="S-lycEA00488_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq" name="S-lycEA00940" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA00940_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq_CG.bw" name="S-lycEA00940_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA00940_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq_CHG.bw" name="S-lycEA00940_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA00940_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00940_leaf_Biseq_CHH.bw" name="S-lycEA00940_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq" name="S-lycEA00990" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA00990_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq_CG.bw" name="S-lycEA00990_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA00990_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq_CHG.bw" name="S-lycEA00990_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA00990_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA00990_leaf_Biseq_CHH.bw" name="S-lycEA00990_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq" name="S-lycEA01155" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA01155_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq_CG.bw" name="S-lycEA01155_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA01155_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq_CHG.bw" name="S-lycEA01155_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA01155_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA01155_leaf_Biseq_CHH.bw" name="S-lycEA01155_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq" name="S-lycEA02054" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycEA02054_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq_CG.bw" name="S-lycEA02054_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycEA02054_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq_CHG.bw" name="S-lycEA02054_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycEA02054_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycEA02054_leaf_Biseq_CHH.bw" name="S-lycEA02054_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq" name="S-lycLA2838A" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycLA2838A_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq_CG.bw" name="S-lycLA2838A_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycLA2838A_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq_CHG.bw" name="S-lycLA2838A_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycLA2838A_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLA2838A_leaf_Biseq_CHH.bw" name="S-lycLA2838A_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq" name="S-lycLYC1410" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycLYC1410_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq_CG.bw" name="S-lycLYC1410_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycLYC1410_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq_CHG.bw" name="S-lycLYC1410_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycLYC1410_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1410_leaf_Biseq_CHH.bw" name="S-lycLYC1410_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq" name="S-lycLYC1969" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycLYC1969_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq_CG.bw" name="S-lycLYC1969_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycLYC1969_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq_CHG.bw" name="S-lycLYC1969_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycLYC1969_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC1969_leaf_Biseq_CHH.bw" name="S-lycLYC1969_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq" name="S-lycLYC3153" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-lycLYC3153_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq_CG.bw" name="S-lycLYC3153_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-lycLYC3153_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq_CHG.bw" name="S-lycLYC3153_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-lycLYC3153_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-lycLYC3153_leaf_Biseq_CHH.bw" name="S-lycLYC3153_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq" name="S-pimLA1578" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-pimLA1578_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq_CG.bw" name="S-pimLA1578_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-pimLA1578_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq_CHG.bw" name="S-pimLA1578_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-pimLA1578_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLA1578_leaf_Biseq_CHH.bw" name="S-pimLA1578_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq" name="S-pimLYC2798" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="S-pimLYC2798_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq_CG.bw" name="S-pimLYC2798_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="S-pimLYC2798_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq_CHG.bw" name="S-pimLYC2798_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="S-pimLYC2798_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/S-pimLYC2798_leaf_Biseq_CHH.bw" name="S-pimLYC2798_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq" name="TS-10" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-10_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq_CG.bw" name="TS-10_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-10_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq_CHG.bw" name="TS-10_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-10_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-10_leaf_Biseq_CHH.bw" name="TS-10_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq" name="TS-105" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-105_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq_CG.bw" name="TS-105_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-105_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq_CHG.bw" name="TS-105_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-105_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-105_leaf_Biseq_CHH.bw" name="TS-105_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq" name="TS-108" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-108_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq_CG.bw" name="TS-108_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-108_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq_CHG.bw" name="TS-108_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-108_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-108_leaf_Biseq_CHH.bw" name="TS-108_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq" name="TS-109" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-109_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq_CG.bw" name="TS-109_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-109_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq_CHG.bw" name="TS-109_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-109_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-109_leaf_Biseq_CHH.bw" name="TS-109_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq" name="TS-112" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-112_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq_CG.bw" name="TS-112_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-112_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq_CHG.bw" name="TS-112_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-112_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-112_leaf_Biseq_CHH.bw" name="TS-112_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq" name="TS-122" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-122_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq_CG.bw" name="TS-122_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-122_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq_CHG.bw" name="TS-122_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-122_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-122_leaf_Biseq_CHH.bw" name="TS-122_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq" name="TS-128" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-128_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq_CG.bw" name="TS-128_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-128_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq_CHG.bw" name="TS-128_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-128_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-128_leaf_Biseq_CHH.bw" name="TS-128_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq" name="TS-131" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-131_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq_CG.bw" name="TS-131_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-131_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq_CHG.bw" name="TS-131_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-131_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-131_leaf_Biseq_CHH.bw" name="TS-131_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq" name="TS-133" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-133_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq_CG.bw" name="TS-133_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-133_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq_CHG.bw" name="TS-133_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-133_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-133_leaf_Biseq_CHH.bw" name="TS-133_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq" name="TS-134" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-134_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq_CG.bw" name="TS-134_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-134_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq_CHG.bw" name="TS-134_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-134_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-134_leaf_Biseq_CHH.bw" name="TS-134_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq" name="TS-138" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-138_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq_CG.bw" name="TS-138_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-138_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq_CHG.bw" name="TS-138_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-138_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-138_leaf_Biseq_CHH.bw" name="TS-138_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq" name="TS-140" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-140_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq_CG.bw" name="TS-140_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-140_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq_CHG.bw" name="TS-140_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-140_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-140_leaf_Biseq_CHH.bw" name="TS-140_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq" name="TS-145" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-145_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq_CG.bw" name="TS-145_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-145_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq_CHG.bw" name="TS-145_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-145_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-145_leaf_Biseq_CHH.bw" name="TS-145_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq" name="TS-149" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-149_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq_CG.bw" name="TS-149_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-149_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq_CHG.bw" name="TS-149_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-149_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-149_leaf_Biseq_CHH.bw" name="TS-149_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq" name="TS-152" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-152_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq_CG.bw" name="TS-152_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-152_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq_CHG.bw" name="TS-152_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-152_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-152_leaf_Biseq_CHH.bw" name="TS-152_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq" name="TS-16" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-16_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq_CG.bw" name="TS-16_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-16_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq_CHG.bw" name="TS-16_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-16_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-16_leaf_Biseq_CHH.bw" name="TS-16_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq" name="TS-164" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-164_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq_CG.bw" name="TS-164_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-164_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq_CHG.bw" name="TS-164_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-164_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-164_leaf_Biseq_CHH.bw" name="TS-164_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq" name="TS-165" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-165_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq_CG.bw" name="TS-165_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-165_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq_CHG.bw" name="TS-165_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-165_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-165_leaf_Biseq_CHH.bw" name="TS-165_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq" name="TS-17" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-17_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq_CG.bw" name="TS-17_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-17_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq_CHG.bw" name="TS-17_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-17_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-17_leaf_Biseq_CHH.bw" name="TS-17_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq" name="TS-182" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-182_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq_CG.bw" name="TS-182_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-182_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq_CHG.bw" name="TS-182_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-182_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-182_leaf_Biseq_CHH.bw" name="TS-182_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq" name="TS-187" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-187_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq_CG.bw" name="TS-187_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-187_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq_CHG.bw" name="TS-187_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-187_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-187_leaf_Biseq_CHH.bw" name="TS-187_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq" name="TS-20" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-20_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq_CG.bw" name="TS-20_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-20_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq_CHG.bw" name="TS-20_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-20_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-20_leaf_Biseq_CHH.bw" name="TS-20_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq" name="TS-203" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-203_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq_CG.bw" name="TS-203_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-203_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq_CHG.bw" name="TS-203_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-203_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-203_leaf_Biseq_CHH.bw" name="TS-203_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq" name="TS-205" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-205_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq_CG.bw" name="TS-205_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-205_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq_CHG.bw" name="TS-205_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-205_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-205_leaf_Biseq_CHH.bw" name="TS-205_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq" name="TS-21" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-21_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq_CG.bw" name="TS-21_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-21_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq_CHG.bw" name="TS-21_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-21_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-21_leaf_Biseq_CHH.bw" name="TS-21_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq" name="TS-212" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-212_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq_CG.bw" name="TS-212_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-212_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq_CHG.bw" name="TS-212_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-212_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-212_leaf_Biseq_CHH.bw" name="TS-212_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq" name="TS-216" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-216_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq_CG.bw" name="TS-216_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-216_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq_CHG.bw" name="TS-216_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-216_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-216_leaf_Biseq_CHH.bw" name="TS-216_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq" name="TS-219" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-219_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq_CG.bw" name="TS-219_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-219_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq_CHG.bw" name="TS-219_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-219_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-219_leaf_Biseq_CHH.bw" name="TS-219_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq" name="TS-22" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-22_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq_CG.bw" name="TS-22_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-22_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq_CHG.bw" name="TS-22_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-22_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-22_leaf_Biseq_CHH.bw" name="TS-22_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq" name="TS-222" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-222_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq_CG.bw" name="TS-222_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-222_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq_CHG.bw" name="TS-222_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-222_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-222_leaf_Biseq_CHH.bw" name="TS-222_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq" name="TS-227" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-227_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq_CG.bw" name="TS-227_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-227_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq_CHG.bw" name="TS-227_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-227_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-227_leaf_Biseq_CHH.bw" name="TS-227_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq" name="TS-23" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-23_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq_CG.bw" name="TS-23_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-23_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq_CHG.bw" name="TS-23_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-23_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-23_leaf_Biseq_CHH.bw" name="TS-23_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq" name="TS-231" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-231_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq_CG.bw" name="TS-231_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-231_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq_CHG.bw" name="TS-231_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-231_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-231_leaf_Biseq_CHH.bw" name="TS-231_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq" name="TS-235" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-235_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq_CG.bw" name="TS-235_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-235_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq_CHG.bw" name="TS-235_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-235_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-235_leaf_Biseq_CHH.bw" name="TS-235_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq" name="TS-238" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-238_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq_CG.bw" name="TS-238_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-238_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq_CHG.bw" name="TS-238_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-238_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-238_leaf_Biseq_CHH.bw" name="TS-238_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq" name="TS-244" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-244_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq_CG.bw" name="TS-244_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-244_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq_CHG.bw" name="TS-244_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-244_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-244_leaf_Biseq_CHH.bw" name="TS-244_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq" name="TS-25" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-25_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq_CG.bw" name="TS-25_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-25_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq_CHG.bw" name="TS-25_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-25_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-25_leaf_Biseq_CHH.bw" name="TS-25_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq" name="TS-266" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-266_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq_CG.bw" name="TS-266_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-266_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq_CHG.bw" name="TS-266_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-266_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-266_leaf_Biseq_CHH.bw" name="TS-266_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq" name="TS-271" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-271_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq_CG.bw" name="TS-271_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-271_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq_CHG.bw" name="TS-271_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-271_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-271_leaf_Biseq_CHH.bw" name="TS-271_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq" name="TS-273" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-273_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq_CG.bw" name="TS-273_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-273_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq_CHG.bw" name="TS-273_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-273_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-273_leaf_Biseq_CHH.bw" name="TS-273_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq" name="TS-283" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-283_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq_CG.bw" name="TS-283_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-283_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq_CHG.bw" name="TS-283_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-283_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-283_leaf_Biseq_CHH.bw" name="TS-283_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq" name="TS-294" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-294_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq_CG.bw" name="TS-294_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-294_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq_CHG.bw" name="TS-294_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-294_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-294_leaf_Biseq_CHH.bw" name="TS-294_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq" name="TS-298" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-298_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq_CG.bw" name="TS-298_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-298_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq_CHG.bw" name="TS-298_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-298_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-298_leaf_Biseq_CHH.bw" name="TS-298_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq" name="TS-3" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-3_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq_CG.bw" name="TS-3_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-3_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq_CHG.bw" name="TS-3_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-3_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-3_leaf_Biseq_CHH.bw" name="TS-3_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq" name="TS-300" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-300_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq_CG.bw" name="TS-300_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-300_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq_CHG.bw" name="TS-300_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-300_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-300_leaf_Biseq_CHH.bw" name="TS-300_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq" name="TS-301" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-301_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq_CG.bw" name="TS-301_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-301_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq_CHG.bw" name="TS-301_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-301_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-301_leaf_Biseq_CHH.bw" name="TS-301_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq" name="TS-39" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-39_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq_CG.bw" name="TS-39_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-39_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq_CHG.bw" name="TS-39_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-39_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-39_leaf_Biseq_CHH.bw" name="TS-39_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq" name="TS-415" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-415_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq_CG.bw" name="TS-415_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-415_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq_CHG.bw" name="TS-415_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-415_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-415_leaf_Biseq_CHH.bw" name="TS-415_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq" name="TS-416" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-416_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq_CG.bw" name="TS-416_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-416_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq_CHG.bw" name="TS-416_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-416_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-416_leaf_Biseq_CHH.bw" name="TS-416_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq" name="TS-418" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-418_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq_CG.bw" name="TS-418_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-418_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq_CHG.bw" name="TS-418_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-418_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-418_leaf_Biseq_CHH.bw" name="TS-418_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq" name="TS-419" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-419_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq_CG.bw" name="TS-419_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-419_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq_CHG.bw" name="TS-419_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-419_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-419_leaf_Biseq_CHH.bw" name="TS-419_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq" name="TS-420" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-420_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq_CG.bw" name="TS-420_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-420_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq_CHG.bw" name="TS-420_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-420_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-420_leaf_Biseq_CHH.bw" name="TS-420_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq" name="TS-425" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-425_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq_CG.bw" name="TS-425_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-425_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq_CHG.bw" name="TS-425_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-425_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-425_leaf_Biseq_CHH.bw" name="TS-425_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq" name="TS-428" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-428_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq_CG.bw" name="TS-428_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-428_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq_CHG.bw" name="TS-428_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-428_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-428_leaf_Biseq_CHH.bw" name="TS-428_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq" name="TS-430" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-430_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq_CG.bw" name="TS-430_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-430_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq_CHG.bw" name="TS-430_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-430_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-430_leaf_Biseq_CHH.bw" name="TS-430_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq" name="TS-432" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-432_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq_CG.bw" name="TS-432_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-432_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq_CHG.bw" name="TS-432_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-432_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-432_leaf_Biseq_CHH.bw" name="TS-432_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq" name="TS-47" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-47_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq_CG.bw" name="TS-47_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-47_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq_CHG.bw" name="TS-47_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-47_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-47_leaf_Biseq_CHH.bw" name="TS-47_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq" name="TS-517" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-517_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq_CG.bw" name="TS-517_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-517_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq_CHG.bw" name="TS-517_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-517_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-517_leaf_Biseq_CHH.bw" name="TS-517_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq" name="TS-518" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-518_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq_CG.bw" name="TS-518_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-518_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq_CHG.bw" name="TS-518_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-518_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-518_leaf_Biseq_CHH.bw" name="TS-518_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq" name="TS-519" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-519_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq_CG.bw" name="TS-519_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-519_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq_CHG.bw" name="TS-519_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-519_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-519_leaf_Biseq_CHH.bw" name="TS-519_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq" name="TS-526" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-526_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq_CG.bw" name="TS-526_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-526_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq_CHG.bw" name="TS-526_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-526_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-526_leaf_Biseq_CHH.bw" name="TS-526_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq" name="TS-528" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-528_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq_CG.bw" name="TS-528_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-528_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq_CHG.bw" name="TS-528_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-528_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-528_leaf_Biseq_CHH.bw" name="TS-528_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq" name="TS-529" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-529_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq_CG.bw" name="TS-529_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-529_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq_CHG.bw" name="TS-529_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-529_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-529_leaf_Biseq_CHH.bw" name="TS-529_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq" name="TS-530" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-530_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq_CG.bw" name="TS-530_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-530_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq_CHG.bw" name="TS-530_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-530_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-530_leaf_Biseq_CHH.bw" name="TS-530_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq" name="TS-533" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-533_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq_CG.bw" name="TS-533_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-533_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq_CHG.bw" name="TS-533_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-533_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-533_leaf_Biseq_CHH.bw" name="TS-533_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq" name="TS-537" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-537_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq_CG.bw" name="TS-537_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-537_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq_CHG.bw" name="TS-537_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-537_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-537_leaf_Biseq_CHH.bw" name="TS-537_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq" name="TS-540" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-540_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq_CG.bw" name="TS-540_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-540_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq_CHG.bw" name="TS-540_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-540_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-540_leaf_Biseq_CHH.bw" name="TS-540_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq" name="TS-543" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-543_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq_CG.bw" name="TS-543_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-543_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq_CHG.bw" name="TS-543_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-543_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-543_leaf_Biseq_CHH.bw" name="TS-543_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq" name="TS-547" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-547_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq_CG.bw" name="TS-547_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-547_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq_CHG.bw" name="TS-547_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-547_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-547_leaf_Biseq_CHH.bw" name="TS-547_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq" name="TS-551" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-551_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq_CG.bw" name="TS-551_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-551_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq_CHG.bw" name="TS-551_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-551_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-551_leaf_Biseq_CHH.bw" name="TS-551_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq" name="TS-552" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-552_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq_CG.bw" name="TS-552_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-552_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq_CHG.bw" name="TS-552_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-552_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-552_leaf_Biseq_CHH.bw" name="TS-552_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq" name="TS-554" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-554_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq_CG.bw" name="TS-554_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-554_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq_CHG.bw" name="TS-554_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-554_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-554_leaf_Biseq_CHH.bw" name="TS-554_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq" name="TS-56" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-56_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq_CG.bw" name="TS-56_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-56_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq_CHG.bw" name="TS-56_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-56_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-56_leaf_Biseq_CHH.bw" name="TS-56_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq" name="TS-560" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-560_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq_CG.bw" name="TS-560_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-560_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq_CHG.bw" name="TS-560_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-560_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-560_leaf_Biseq_CHH.bw" name="TS-560_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq" name="TS-566" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-566_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq_CG.bw" name="TS-566_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-566_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq_CHG.bw" name="TS-566_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-566_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-566_leaf_Biseq_CHH.bw" name="TS-566_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq" name="TS-57" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-57_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq_CG.bw" name="TS-57_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-57_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq_CHG.bw" name="TS-57_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-57_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-57_leaf_Biseq_CHH.bw" name="TS-57_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq" name="TS-578" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-578_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq_CG.bw" name="TS-578_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-578_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq_CHG.bw" name="TS-578_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-578_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-578_leaf_Biseq_CHH.bw" name="TS-578_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq" name="TS-579" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-579_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq_CG.bw" name="TS-579_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-579_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq_CHG.bw" name="TS-579_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-579_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-579_leaf_Biseq_CHH.bw" name="TS-579_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq" name="TS-584" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-584_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq_CG.bw" name="TS-584_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-584_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq_CHG.bw" name="TS-584_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-584_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-584_leaf_Biseq_CHH.bw" name="TS-584_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq" name="TS-6" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-6_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq_CG.bw" name="TS-6_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-6_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq_CHG.bw" name="TS-6_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-6_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-6_leaf_Biseq_CHH.bw" name="TS-6_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq" name="TS-614" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-614_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq_CG.bw" name="TS-614_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-614_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq_CHG.bw" name="TS-614_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-614_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-614_leaf_Biseq_CHH.bw" name="TS-614_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq" name="TS-62" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-62_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq_CG.bw" name="TS-62_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-62_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq_CHG.bw" name="TS-62_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-62_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-62_leaf_Biseq_CHH.bw" name="TS-62_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq" name="TS-621" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-621_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq_CG.bw" name="TS-621_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-621_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq_CHG.bw" name="TS-621_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-621_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-621_leaf_Biseq_CHH.bw" name="TS-621_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq" name="TS-63" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-63_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq_CG.bw" name="TS-63_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-63_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq_CHG.bw" name="TS-63_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-63_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-63_leaf_Biseq_CHH.bw" name="TS-63_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq" name="TS-637" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-637_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq_CG.bw" name="TS-637_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-637_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq_CHG.bw" name="TS-637_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-637_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-637_leaf_Biseq_CHH.bw" name="TS-637_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq" name="TS-638" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-638_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq_CG.bw" name="TS-638_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-638_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq_CHG.bw" name="TS-638_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-638_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-638_leaf_Biseq_CHH.bw" name="TS-638_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq" name="TS-643" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-643_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq_CG.bw" name="TS-643_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-643_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq_CHG.bw" name="TS-643_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-643_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-643_leaf_Biseq_CHH.bw" name="TS-643_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq" name="TS-649" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-649_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq_CG.bw" name="TS-649_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-649_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq_CHG.bw" name="TS-649_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-649_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-649_leaf_Biseq_CHH.bw" name="TS-649_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq" name="TS-65" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-65_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq_CG.bw" name="TS-65_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-65_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq_CHG.bw" name="TS-65_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-65_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-65_leaf_Biseq_CHH.bw" name="TS-65_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq" name="TS-655" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-655_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq_CG.bw" name="TS-655_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-655_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq_CHG.bw" name="TS-655_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-655_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-655_leaf_Biseq_CHH.bw" name="TS-655_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq" name="TS-656" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-656_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq_CG.bw" name="TS-656_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-656_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq_CHG.bw" name="TS-656_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-656_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-656_leaf_Biseq_CHH.bw" name="TS-656_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq" name="TS-66" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-66_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq_CG.bw" name="TS-66_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-66_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq_CHG.bw" name="TS-66_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-66_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-66_leaf_Biseq_CHH.bw" name="TS-66_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq" name="TS-67" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-67_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq_CG.bw" name="TS-67_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-67_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq_CHG.bw" name="TS-67_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-67_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-67_leaf_Biseq_CHH.bw" name="TS-67_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq" name="TS-7" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-7_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq_CG.bw" name="TS-7_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-7_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq_CHG.bw" name="TS-7_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-7_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-7_leaf_Biseq_CHH.bw" name="TS-7_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq" name="TS-70" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-70_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq_CG.bw" name="TS-70_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-70_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq_CHG.bw" name="TS-70_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-70_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-70_leaf_Biseq_CHH.bw" name="TS-70_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq" name="TS-77" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-77_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq_CG.bw" name="TS-77_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-77_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq_CHG.bw" name="TS-77_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-77_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-77_leaf_Biseq_CHH.bw" name="TS-77_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq" name="TS-8" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-8_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq_CG.bw" name="TS-8_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-8_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq_CHG.bw" name="TS-8_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-8_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-8_leaf_Biseq_CHH.bw" name="TS-8_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq" name="TS-84" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-84_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq_CG.bw" name="TS-84_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-84_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq_CHG.bw" name="TS-84_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-84_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-84_leaf_Biseq_CHH.bw" name="TS-84_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq" name="TS-88" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-88_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq_CG.bw" name="TS-88_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-88_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq_CHG.bw" name="TS-88_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-88_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-88_leaf_Biseq_CHH.bw" name="TS-88_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq" name="TS-9" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-9_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq_CG.bw" name="TS-9_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-9_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq_CHG.bw" name="TS-9_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-9_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-9_leaf_Biseq_CHH.bw" name="TS-9_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq" name="TS-92" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-92_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq_CG.bw" name="TS-92_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-92_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq_CHG.bw" name="TS-92_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-92_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-92_leaf_Biseq_CHH.bw" name="TS-92_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq" name="TS-95" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-95_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq_CG.bw" name="TS-95_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-95_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq_CHG.bw" name="TS-95_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-95_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-95_leaf_Biseq_CHH.bw" name="TS-95_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Track alpha="0.24" attributeKey="Overlay" autoScale="false" clazz="org.broad.igv.track.MergedTracks" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq" name="TS-96" renderer="BAR_CHART" visible="true">
+		<Track altColor="204,204,0" attributeKey="TS-96_leaf_Biseq.bw" autoScale="false" color="204,204,0" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq_CG.bw" name="TS-96_leaf_Biseq_CG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="0,51,204" attributeKey="TS-96_leaf_Biseq.bw" autoScale="false" color="0,51,204" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq_CHG.bw" name="TS-96_leaf_Biseq_CHG.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<Track altColor="204,0,102" attributeKey="TS-96_leaf_Biseq.bw" autoScale="false" color="204,0,102" fontSize="8" id="/mnt/data6/vibanez/IGV/data/TS-96_leaf_Biseq_CHH.bw" name="TS-96_leaf_Biseq_CHH.bw" renderer="BAR_CHART" visible="true" windowFunction="mean"/>
+		<DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+		<Property name="height">20</Property>
+	</Track>
+	<Panel height="160" name="FeaturePanel" width="1901">
+		<Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+		<Track attributeKey="ITAG2.4_gene_models.gff3" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/ITAG2.4_gene_models.gff3" name="ITAG2.4_gene_models.gff3" visible="true"/>
+		<Track attributeKey="SL2.50_REPET.gff3" clazz="org.broad.igv.track.FeatureTrack" color="255,153,0" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/SL2.50_REPET.gff3" name="SL2.50_REPET.gff3" visible="true"/>
+		<Track attributeKey="ch01_C-DMR-loci_collapsed.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/ch01_C-DMR-loci_collapsed.bed" name="ch01_C-DMR-loci_collapsed.bed" visible="true"/>
+		<Track attributeKey="ch01_CG-DMR-loci_collapsed.bed" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="/mnt/data6/vibanez/IGV/annotation/ch01_CG-DMR-loci_collapsed.bed" name="ch01_CG-DMR-loci_collapsed.bed" visible="true"/>
+	</Panel>
+<PanelLayout dividerFractions="0.8221153846153846"/>
+<HiddenAttributes>
+	<Attribute name="DATA FILE"/>
+	<Attribute name="DATA TYPE"/>
+	<Attribute name="NAME"/>
+</HiddenAttributes>
+</Session>

@@ -1,0 +1,25 @@
+#!/bin/bash
+SAMPLE="$( cat $1 )"
+#INDIR="/mnt/data6/vibanez/IGV/data/RNAseq/KOs"
+INDIR="/mnt/disk2/vibanez/07_rnaseq-processing/07.2_sorting"
+#NAME="$( echo $SAMPLE | cut -d'.' -f1 | cut -d'_' -f1,2 )"
+
+samtools sort -@ 8 -o ${INDIR}/${SAMPLE}_sorted.bam ${INDIR}/${SAMPLE}_merged.bam
+samtools index ${INDIR}/${SAMPLE}_sorted.bam
+
+echo "========= bigwig   ========="
+bamCoverage -b $INDIR/${SAMPLE}_sorted.bam \
+            -o $INDIR/$SAMPLE.bw \
+            --binSize 10 \
+            --normalizeUsing RPKM \
+            --effectiveGenomeSize 2913022398 \
+            --ignoreDuplicates \
+            --numberOfProcessors 16
+
+
+#echo "========= coverage ========="
+#samtools depth $INDIR/$SAMPLE | grep 'SL2.50'| awk '{OFS="\t"}{print $1, $2-1,$2,$3}' > $INDIR/$NAME.coverage.bed
+#echo "========= bigwig   ========="
+#cat $NAME.coverage | awk '{OFS="\t"}{print $1, $2-1,$2,$3}' > $NAME.coverage.bed
+#~/bin/bedGraphToBigWig $INDIR/$NAME.coverage.bed ~/bin/chr.size.bed $INDIR/$NAME.bw
+

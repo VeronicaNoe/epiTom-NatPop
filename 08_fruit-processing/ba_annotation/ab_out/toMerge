@@ -1,0 +1,10 @@
+gene.C-DMR.methylation
+gene.CG-DMR.methylation
+gene-TE.C-DMR.methylation
+gene-TE.CG-DMR.methylation
+intergenic.C-DMR.methylation
+intergenic.CG-DMR.methylation
+promotor.C-DMR.methylation
+promotor.CG-DMR.methylation
+TE-wo-gene.C-DMR.methylation
+TE-wo-gene.CG-DMR.methylation

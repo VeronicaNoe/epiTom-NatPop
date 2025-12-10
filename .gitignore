@@ -1,0 +1,76 @@
+# =========================
+# Sequencing reads (raw)
+# =========================
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# =========================
+# Alignments / coverage
+# =========================
+*.bam
+*.bam.bai
+*.sam
+*.cram
+*.bai
+
+# =========================
+# Variant calls
+# =========================
+*.vcf
+*.vcf.gz
+*.vcf.idx
+*.tbi
+
+# =========================
+# BED / coverage / bigWig
+# =========================
+*.bed
+*.bed.gz
+*.bedg
+*.bedgraph
+*.bedGraph
+*.bw
+*.bigWig
+*.target
+# =========================
+# Tables and text exports
+# =========================
+*.txt
+*.tsv
+*.csv
+
+# =========================
+# R / RStudio
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Editors / OS noise
+# =========================
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Folders
+# =========================
+cotton/
+koki/
+otherAnalysis/
+ENA_submission/
+10_data-analysis/Fig3/aa_GWAS-DMRs/bb_phenotype/
+10_data-analysis/Fig3/aa_GWAS-DMRs/bd_results/
+bin/genome.window

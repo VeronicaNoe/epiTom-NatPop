@@ -1,0 +1,3 @@
+##
+old version to have epiPi
+~/bin/get_epiPI_position.sh $< 2> $@
