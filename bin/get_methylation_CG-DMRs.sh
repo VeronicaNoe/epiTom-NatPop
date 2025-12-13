@@ -1,9 +1,9 @@
 SAMPLE="$( cat $1 | cut -d '_' -f1,2 )"
 CHR="$( cat $1 | cut -d'_' -f3 )"
 
-SAMPLE_DIR="/mnt/disk2/vibanez/03_bismark_alignment/03.3_filtering/ac_filter/bb_output"
-LOCI_DIR="/mnt/disk2/vibanez/05_post-processing-DMRs/05.1_DMR-classification/05.1_get-collapsed-loci"
-OUT_DIR="/mnt/disk2/vibanez/05_post-processing-DMRs/05.1_DMR-classification/05.2_merge-DMRs/aa_get-ind-methylation-over-collapsed-loci/ab_output"
+SAMPLE_DIR="03_bismark_alignment/03.3_filtering/ac_filter/bb_output"
+LOCI_DIR="05_post-processing-DMRs/05.1_DMR-classification/05.1_get-collapsed-loci"
+OUT_DIR="05_post-processing-DMRs/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/aa_get-ind-methylation-over-collapsed-loci"
 
 #extrar la metilacion en cada ventana definida con todas las muestras
 cat ${SAMPLE_DIR}/${SAMPLE}*_CG_${CHR}.filtered.bed | gawk '{OFS="\t"}{print $1,$2,$2,$4,$5}' |\

@@ -1,9 +1,8 @@
 SAMPLE="$( cat $1 | cut -d '_' -f1,2 )"
 
-SAMPLE_DIR="/mnt/disk2/vibanez/03_biseq-processing/03.4_filtering/ac_filter"
-LOCI_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.1_get-collapsed-loci/ab_pedigree"
-OUT_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/ab_pedigree/aa_get-ind-methylation-over-collapsed-loci"
-
+SAMPLE_DIR="03_biseq-processing/03.4_filtering/ac_filter"
+LOCI_DIR="05_DMR-processing/05.1_DMR-classification/05.1_get-collapsed-loci/ab_pedigree"
+OUT_DIR="05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/ab_pedigree/aa_get-ind-methylation-over-collapsed-loci"
 
 #extrar la metilacion en cada ventana definida con todas las muestras
 cat ${SAMPLE_DIR}/${SAMPLE}_CG_*.filtered.bed |  gawk '{OFS="\t"}{print $1,$2-1, $2,$4, $5}' |\

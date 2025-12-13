@@ -1,7 +1,7 @@
 #!/bin/bash
 TISSUE="$( cat $1 )"
-SNP="/mnt/disk2/vibanez/01_raw-data/01.2_vcfiles/aa_download-vcf/SNPs_SL2.5_185-samples_biallelic_wo_indels.vcf.gz"
-OUT_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome"
+SNP="/01_raw-data/01.2_vcfiles/aa_download-vcf/SNPs_SL2.5_185-samples_biallelic_wo_indels_with_id.vcf.gz"
+OUT_DIR="10_data-analysis/Fig5/aa_GWAS-metabolome"
 bcftools view -S samples_${TISSUE}_metabolome -Oz -o tmp_SNPs_${TISSUE}_metabolome.vcf.gz ${SNP}
 bcftools annotate --threads 40 --set-id '+%CHROM:%POS' tmp_SNPs_${TISSUE}_metabolome.vcf.gz -O z -o tmp_SNPs_${TISSUE}_metabolome_w_annotation.vcf.gz
 zcat tmp_SNPs_${TISSUE}_metabolome_w_annotation.vcf.gz | sed 's/SL2.50ch//g' > SNPs_${TISSUE}_metabolome_w_annotation_chr_edited.vcf

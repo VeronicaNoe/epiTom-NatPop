@@ -1,0 +1,2 @@
+We need to split the genome by 100 bp windows.
+save each CHR.window file in bin/tmp

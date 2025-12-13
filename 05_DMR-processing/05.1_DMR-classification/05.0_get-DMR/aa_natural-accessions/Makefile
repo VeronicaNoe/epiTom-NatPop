@@ -1,7 +1,7 @@
-SOURCE_DIR = $(abspath aa_targets)
+SOURCE_DIR = $(abspath $(wildcard *_targets))
 FILES      = $(wildcard $(SOURCE_DIR)/*.target)
 TARGETS    = $(patsubst $(SOURCE_DIR)/%.target, $(CURDIR)/%.DMR.out, $(FILES))
-SAMPLE_DIR = "/mnt/disk2/vibanez/04_methylome-comparison/aa_natural-accessions"
+SAMPLE_DIR = "04_methylome-comparison/aa_natural-accessions"
 OUT_DIR    = $(CURDIR)
 
 all : $(TARGETS)

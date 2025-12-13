@@ -1,8 +1,8 @@
 #!/bin/bash
-READ_DIR="/mnt/disk2/vibanez/reads"
+READ_DIR="01_raw-data/01.0_biseq-reads"
 SAMPLE="$( cat "$1" )"
-REF_DIR="/mnt/disk6/vibanez/conversion-rate/aa_genome-preparation"
-OUT_DIR="/mnt/disk6/vibanez/conversion-rate/ab_mapping"
+REF_DIR="03_biseq-processing/03.6_conversion-rate/aa_genome-preparation"
+OUT_DIR="03_biseq-processing/03.6_conversion-rate/ab_mapping"
 
 bismark $REF_DIR \
         -1 ${READ_DIR}/${SAMPLE}"_Biseq_1.f"*".gz" \
@@ -16,4 +16,4 @@ bismark $REF_DIR \
         --ambiguous \
         -B ${SAMPLE} \
         -o ${OUT_DIR} \
-        --temp_dir /mnt/disk6/vibanez/tmp/
+        --temp_dir tmp/

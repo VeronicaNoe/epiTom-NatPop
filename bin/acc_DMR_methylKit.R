@@ -1,11 +1,10 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
-# get the folder passed from the shell
+#!/usr/bin/env Rscript
 suppressPackageStartupMessages({
   library("methylKit")})
 args <- commandArgs(trailingOnly = TRUE)
-#set paths and chr
-path2acc<-"/mnt/disk2/vibanez/03_bismark_alignment/03.3_filtering/ac_filter/bb_output/"
-path2results<-"/mnt/disk2/vibanez/04_methylkit-dmr-calling/ab_output/"
+/03_biseq-processing/03.4_filtering/ac_filter
+path2acc<-"/03_biseq-processing/03.4_filtering/ac_filter"
+path2results<-"04_methylome-comparison/aa_natural-accessions"
 chr2process=args[2]
 
 #

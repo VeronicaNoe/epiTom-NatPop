@@ -1,8 +1,8 @@
 #!/bin/bash
 CHR="$( cat $1 )"
-SAMPLE_DIR="/mnt/disk2/vibanez/05_post-processing-DMRs/05.1_DMR-classification/05.0_get-DMR/ab_output"
-OUT_DIR="/mnt/disk2/vibanez/05_post-processing-DMRs/05.1_DMR-classification/05.1_get-collapsed-loci"
-TMP="/mnt/disk2/vibanez/05_post-processing-DMRs/05.1_DMR-classification/tmp-files"
+SAMPLE_DIR="05_DMR-processing/05.1_DMR-classification/05.0_get-DMR/ab_output"
+OUT_DIR="05_DMR-processing/05.1_DMR-classification/05.1_get-collapsed-loci"
+TMP="tmp"
 # creating a small data set
 for file in $(ls ${SAMPLE_DIR}/$CHR*.C-DMR.bed); do
         base_name=$(basename "$file" .bed)

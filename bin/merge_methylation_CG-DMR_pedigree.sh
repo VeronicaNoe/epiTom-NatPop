@@ -1,9 +1,8 @@
 GEN="$( cat $1 )"
-
-SAMPLE_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/ab_pedigree/aa_get-ind-methylation-over-collapsed-loci"
-CHR_SIZE="/home/vibanez/bin/chr.size.bed"
-LOCI="/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.1_get-collapsed-loci/ab_pedigree"
-OUT_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/ab_pedigree/ab_merge-methylation"
+SAMPLE_DIR="05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/ab_pedigree/aa_get-ind-methylation-over-collapsed-loci"
+CHR_SIZE="bin/chr.size.bed"
+LOCI="05_DMR-processing/05.1_DMR-classification/05.1_get-collapsed-loci/ab_pedigree"
+OUT_DIR="05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/ab_pedigree/ab_merge-methylation"
 SAMPLE="$( ls ${SAMPLE_DIR}/*"_CG-DMR_"${GEN}".methylation.bed" | tr '\n' '\t' )"
 
 echo $SAMPLE
