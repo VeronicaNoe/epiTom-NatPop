@@ -2,8 +2,8 @@
 GROUP="$( cat $1 | cut -d'_' -f1 )"
 DMR="$( cat $1 | cut -d'_' -f2 )"
 FEATURE="$( cat $1 | cut -d'_' -f3)"
-INDIR="/mnt/data6/vibanez/mVCF/aa_data"
-OUTDIR="/mnt/data6/vibanez/mVCF/ab_split-mvcf-group/aa_data"
+INDIR="06_get-meth-vcf/aa_output"
+OUTDIR="06_get-meth-vcf/ad_split-mvcf-group"
 echo $GROUP
 echo $SAMPLE
 

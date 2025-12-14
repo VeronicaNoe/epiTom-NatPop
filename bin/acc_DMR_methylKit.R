@@ -3,7 +3,7 @@ suppressPackageStartupMessages({
   library("methylKit")})
 args <- commandArgs(trailingOnly = TRUE)
 /03_biseq-processing/03.4_filtering/ac_filter
-path2acc<-"/03_biseq-processing/03.4_filtering/ac_filter"
+path2acc<-"03_biseq-processing/03.4_filtering/ac_filter"
 path2results<-"04_methylome-comparison/aa_natural-accessions"
 chr2process=args[2]
 

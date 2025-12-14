@@ -1,7 +1,7 @@
 #!/bin/bash
 SAMPLE="$( cat $1 )"
-IN_DIR="/mnt/disk2/vibanez/06_get-meth-vcf/aa_output"
-OUT_DIR="/mnt/disk2/vibanez/06_get-meth-vcf/ab_epialleles"
+IN_DIR="06_get-meth-vcf/aa_output"
+OUT_DIR="06_get-meth-vcf/ab_epialleles"
 
 # Find the input files
 files=(${IN_DIR}/ch*_${SAMPLE}.vcf)

@@ -1,10 +1,10 @@
-#!/users/bioinfo/vibanez/miniconda3/envs/methylKit/bin/Rscript
+#!/usr/bin/Rscript
 require("data.table")
 library(dplyr) 
-inDir<-"/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation/"
-outDir<-"/mnt/disk2/vibanez/06_get-meth-vcf/aa_output/"
+inDir<-"05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation/"
+outDir<-"06_get-meth-vcf/aa_output/"
 commonDir<-"/mnt/disk2/vibanez/06_get-meth-vcf/common-accessions/data/"
-setwd("/mnt/disk2/vibanez/06_get-meth-vcf")
+setwd("06_get-meth-vcf")
 
 infileName<-data.table::fread(paste0(inDir,"/00_colNames.tsv"), header = FALSE,sep = '\t', data.table = FALSE, fill = TRUE, na.string=c("NA"), nThread = 20) 
 
@@ -86,7 +86,7 @@ dmr<-unlist(strsplit(args[1],'_',fixed = T))[2]
 infoVcf<-grep('_leaf',colnames(out.vcf), invert = T, value = T)
 for(a in anno){
   for(g in group){
-  anno_dir<-"/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/ab_highPriotiryIntersection/"
+  anno_dir<-"05_DMR-processing/05.2_DMR-annotation/ab_highPriotiryIntersection/"
   anno_lis<-data.table::fread(paste0(anno_dir,a,".",dmr,'.methylation'), 
                            sep = '\t', data.table = FALSE, fill = TRUE, na.string=c("NA"), nThread = 20) 
   colnames(anno_lis)<-cName

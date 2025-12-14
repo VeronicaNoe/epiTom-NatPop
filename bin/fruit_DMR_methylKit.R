@@ -1,11 +1,10 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
-# get the folder passed from the shell
+#!/usr/bin/Rscript
 suppressPackageStartupMessages({
   library("methylKit")})
 args <- commandArgs(trailingOnly = TRUE)
 #set paths and chr
-path2acc<-"/mnt/disk2/vibanez/01_bismark_analysis/04_processingFiles/ac_filter/bb_output/"
-path2results<-"/mnt/disk2/vibanez/08_fruit-processing/08.1_get-DMR/"
+path2acc<-"03_biseq-processing/03.4_filtering/ac_filter/"
+path2results<-"08_fruit-processing/08.0_get-DMR/"
 chr2process=args[2]
 comparison=args[4]
 #

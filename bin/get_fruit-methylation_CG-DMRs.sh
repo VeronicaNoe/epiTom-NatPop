@@ -1,11 +1,10 @@
 SAMPLE="$( cat $1 )"
 CHR="$( cat $1 | cut -d'_' -f5 )"
 
-SAMPLE_DIR="/mnt/disk2/vibanez/03_bismark_alignment/03.3_filtering/ac_filter/bb_output"
-LOCI_DIR="/mnt/disk2/vibanez/08_fruit-processing/08.1_DMR-classification/08.1_get-collapsed-loci"
-OUT_DIR="/mnt/disk2/vibanez/08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/aa_get-ind-methylation-over-collapsed-loci/ab_output"
+SAMPLE_DIR="03_biseq-processing/03.4_filtering/ac_filter"
+LOCI_DIR="08_fruit-processing/08.1_DMR-classification/08.1_get-collapsed-loci"
+OUT_DIR="08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/aa_get-ind-methylation-over-collapsed-loci"
 
-#extrar la metilacion en cada ventana definida con todas las muestras
 cat ${SAMPLE_DIR}/${SAMPLE}*_CG_${CHR}.filtered.bed | gawk '{OFS="\t"}{print $1,$2,$2,$4,$5}' |\
 intersectBed -wb -a - -b ${LOCI_DIR}/${CHR}"_CG-DMR-loci_collapsed.bed" -nonamecheck |\
 awk '{OFS="\t"}{print $1,$7,$8,$4,$5}' | mergeBed -c 4,5 -o sum,sum | awk '{OFS="\t"}{print $1,$2,$3,$4/($4+$5)}' |\

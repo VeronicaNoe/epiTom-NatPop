@@ -1,6 +1,5 @@
-# ACTIVATE WORKING
-inDir<-"/mnt/disk2/vibanez/06_get-meth-vcf/ab_epialleles/"
-outDir<-("/mnt/disk2/vibanez/06_get-meth-vcf/ac_vcf-metabolome/")
+inDir<-"06_get-meth-vcf/ab_epialleles/"
+outDir<-("06_get-meth-vcf/ac_vcf-metabolome/")
 
 dmrs<-c("C-DMR","CG-DMR")
 out<-c()
@@ -16,7 +15,8 @@ data.table::fwrite(out, file= paste0(outDir,'DMR_general_leaf-metabolome_LD.vcf'
                    quote=F,row.names=F,col.names = T,sep="\t")
 
 #######
-snps <- data.table::fread("/mnt/disk2/vibanez/01_raw-data/01.2_vcfiles/ab_vcf-metabolome/SNP_general_leaf-metabolome_LD.vcf",
+#LD file
+snps <- data.table::fread("",
                           skip = "#CHROM", sep = "\t", data.table = FALSE, fill = TRUE, header = TRUE)
 
 out$`#CHROM` <- as.integer(gsub('SL2.50ch','',out$`#CHROM`))

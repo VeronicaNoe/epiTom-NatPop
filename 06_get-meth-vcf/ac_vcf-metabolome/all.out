@@ -1,3 +1,0 @@
-Warning message:
-In data.table::fwrite(dmr_snp, file = paste0(outDir, "DMR-SNP_general_leaf-metabolome_LD.vcf"),  :
-  Input has no columns; creating an empty file at '/mnt/disk2/vibanez/06_get-meth-vcf/ac_vcf-metabolome/DMR-SNP_general_leaf-metabolome_LD.vcf' and exiting.

@@ -1,10 +1,10 @@
 CHR="$( cat $1 )"
 echo "------" $CHR
-SAMPLE_DIR="/mnt/disk2/vibanez/08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/aa_get-ind-methylation-over-collapsed-loci/ab_output"
+SAMPLE_DIR="/08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/aa_get-ind-methylation-over-collapsed-loci"
 CHR_SIZE="~/chr.size.bed"
-OUT_DIR="/mnt/disk2/vibanez/08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/ac_merge-methylation/bb_output"
+OUT_DIR="08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/ac_merge-methylation"
 SAMPLE="$( ls ${SAMPLE_DIR}/*${CHR}_CG-DMR.methylation.bed | tr '\n' '\t' )"
-LOCI_COLLAPSED="/mnt/disk2/vibanez/08_fruit-processing/08.1_DMR-classification/08.1_get-collapsed-loci"
+LOCI_COLLAPSED="08_fruit-processing/08.1_DMR-classification/08.1_get-collapsed-loci"
 
 #echo $SAMPLE
 bedtools unionbedg -i $SAMPLE -empty -g ${CHR_SIZE} -filler NA |\

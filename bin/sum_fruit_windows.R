@@ -1,7 +1,7 @@
 #!/users/bioinfo/vibanez/miniconda3/envs/methylKit/bin/Rscript
 args <- commandArgs(trailingOnly = TRUE)
-path2acc<-"/mnt/disk2/vibanez/02_methylkit/FRUITs/ac_C-DMR/tmp/"
-path2results<-"/mnt/disk2/vibanez/02_methylkit/FRUITs/ac_C-DMR/bb_output/"
+path2acc<-"08_fruit-processing/08.1_DMR-classification/08.1_get-collapsed-loci/tmp/"
+path2results<-"08_fruit-processing/08.1_DMR-classification/08.1_get-collapsed-loci"
 #args<-"ch01_S-lycLYC1410.C-DMR.bed"
 data<- data.table::fread(paste0(path2acc, args[1]), sep = '\t', data.table = FALSE, fill = TRUE, na.string=c("NA"), nThread = 20) 
 toKeep<-unique(data$V2)

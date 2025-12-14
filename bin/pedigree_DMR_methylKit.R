@@ -1,14 +1,11 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
+#!.usr/bin/Rscript
 suppressPackageStartupMessages({
   library("methylKit")})
 args <- commandArgs(trailingOnly = TRUE)
 #set paths and chr
-path2acc<-"/mnt/disk2/vibanez/03_biseq-processing/03.4_filtering/ac_filter/"
-path2results<-"/mnt/disk2/vibanez/04_methylome-comparison/ab_pedigree/"
+path2acc<-"03_biseq-processing/03.4_filtering/ac_filter/"
+path2results<-"04_methylome-comparison/ab_pedigree/"
 controlAcc=args[1]
-#controlAcc="C6-G0"
-#sampleAcc="C9-G0"
-#chr2process="SL2.50ch12"
 sampleAcc=args[2]
 chr2process=args[3]
 #

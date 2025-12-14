@@ -1,9 +1,9 @@
 CHR="$( cat $1 | cut -d'_' -f1 )"
 echo $CHR
-CG="/mnt/disk2/vibanez/02_methylkit/FRUITs/ag_merge_CG-DMR/bb_output"
-C="/mnt/disk2/vibanez/02_methylkit/FRUITs/ah_merge_C-DMR/bb_output"
-ANNOPATH="/mnt/disk2/vibanez/02_methylkit/ac_annotation/aa_data"
-OUTPATH="/mnt/disk2/vibanez/02_methylkit/FRUITs/ba_annotation/ab_out"
+CG="08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/ac_merge-methylation"
+C="08_fruit-processing/08.1_DMR-classification/08.2_merge-DMRs/ac_merge-methylation"
+ANNOPATH="05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
+OUTPATH="08_fruit-processing/ba_annotation"
 
 ### C
 echo '======= C-DMR ======'

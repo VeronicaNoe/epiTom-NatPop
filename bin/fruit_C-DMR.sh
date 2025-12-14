@@ -2,9 +2,9 @@
 SAMPLE="$( cat $1 )"
 echo $SAMPLE
 # --- Define samples to process
-SAMPLE_PATH="/mnt/disk2/vibanez/08_fruit-processing/08.0_get-DMR"
-TMP="/mnt/disk2/vibanez/08_fruit-processing/08.0_get-DMR/tmp"
-OUT="/mnt/disk2/vibanez/08_fruit-processing/08.1_DMR-classification/ab_output"
+SAMPLE_PATH="08_fruit-processing/08.0_get-DMR"
+TMP="08_fruit-processing/08.0_get-DMR/tmp"
+OUT="08_fruit-processing/08.1_DMR-classification"
 # intersect windows and samples
 echo $SAMPLE
 echo "------ subtract CG"

@@ -1,8 +1,8 @@
 #!/bin/bash
 SAMPLE="$(cat "$1")"
 OUT_DIR="$2"
-IN_DIR="/mnt/disk2/vibanez/01_raw-data/01.1_rnaseq-reads"
-REF_DIR="/mnt/disk2/vibanez/07_rnaseq-processing/07.0_ref"
+IN_DIR="01_raw-data/01.1_rnaseq-reads"
+REF_DIR="07_rnaseq-processing/07.0_ref"
 
 # Detect single-end or paired-end based on available files
 if ls $IN_DIR/${SAMPLE}*"_se."*".gz" 1> /dev/null 2>&1; then
