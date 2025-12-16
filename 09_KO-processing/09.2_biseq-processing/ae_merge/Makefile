@@ -1,4 +1,4 @@
-SOURCE_DIR = $(abspath ../bc_targets)
+SOURCE_DIR = $(abspath ../ad_targets)
 FILES      = $(wildcard $(SOURCE_DIR)/*.target)
 TARGETS    = $(patsubst $(SOURCE_DIR)/%.target, $(CURDIR)/%.CG-DMR.out, $(FILES))
 
