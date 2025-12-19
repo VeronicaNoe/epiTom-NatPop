@@ -6,8 +6,8 @@ suppressPackageStartupMessages({
   library(parallel)
 })
 
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bc_gene-epialleles")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles/"
+setwd("10_data-analysis/Fig4/aa_get-epialleles-over-genes/bc_gene-epialleles")
+outDir<-"10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles/"
 #### merge epialleles
 # List all files with the specified pattern
 inputGenes <- list.files(pattern = ".geneEpialleleState", full.names = FALSE)
@@ -19,7 +19,7 @@ read_file <- function(file) {
                     fill = TRUE, check.names = FALSE, na.strings = c("NA"), nThread = 10)
 }
 # Add geneLength
-geneLength<-data.table::fread("/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/allGenes.bed",sep = '\t', data.table = TRUE, header = F,
+geneLength<-data.table::fread("05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/allGenes.bed",sep = '\t', data.table = TRUE, header = F,
                               fill = TRUE, check.names = FALSE, na.strings = c("NA"), nThread = 10)
 geneLength$length<-geneLength$V3-geneLength$V2
 geneLength<-geneLength[,c(5,6)]

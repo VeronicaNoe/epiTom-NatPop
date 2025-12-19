@@ -17,9 +17,9 @@ suppressPackageStartupMessages({
   library(viridis)
   
 })
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/plots/"
+setwd("10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles")
+outDir<-"10_data-analysis/Fig4/results/"
+outPlot<-"10_data-analysis/Fig4/plots/"
 
 
 allData<-data.table::fread(paste0(outDir,'01.06_epiallele_sample.tsv'), sep = '\t',
@@ -47,44 +47,17 @@ allData<-data.table::fread(paste0(outDir,'01.06_epiallele_sample.tsv'), sep = '\
       filter(annotation=="exon" & geneType=="gene-TE")
     contingency_table <- table(exon$DMRoverTEs == "overTEs", exon$sampleEpiallele == "teM")
     fisher.test(contingency_table)
-    #   Fisher's Exact Test for Count Data
-    # 
-    # data:  contingency_table
-    # p-value < 2.2e-16
-    # alternative hypothesis: true odds ratio is not equal to 1
-    # 95 percent confidence interval:
-    #  17.40999 17.75372
-    # sample estimates:
-    # odds ratio 
-    #   17.57916 
+
     intron <- dmrOverTe %>%
       filter(annotation=="intron" & geneType=="gene-TE")
     contingency_table <- table(intron$DMRoverTEs == "overTEs", intron$sampleEpiallele == "teM")
     fisher.test(contingency_table)
-    #   Fisher's Exact Test for Count Data
-    # 
-    # data:  contingency_table
-    # p-value < 2.2e-16
-    # alternative hypothesis: true odds ratio is not equal to 1
-    # 95 percent confidence interval:
-    #  19.12027 19.61348
-    # sample estimates:
-    # odds ratio 
-    #   19.36767 
+
     total <- dmrOverTe %>%
       filter(geneType=="gene-TE")
     contingency_table <- table(total$DMRoverTEs == "overTEs", total$sampleEpiallele == "teM")
     fisher.test(contingency_table)
-    #   Fisher's Exact Test for Count Data
-    # 
-    # data:  contingency_table
-    # p-value < 2.2e-16
-    # alternative hypothesis: true odds ratio is not equal to 1
-    # 95 percent confidence interval:
-    #  18.03962 18.30845
-    # sample estimates:
-    # odds ratio 
-    #   18.16129 
+
   }
   ## get freq
   dmrOverTeFreq <- dmrOverTe %>%
@@ -200,9 +173,6 @@ allData<-data.table::fread(paste0(outDir,'01.06_epiallele_sample.tsv'), sep = '\
     data = compare100to1001
   )
   # Wilcoxon rank sum test with continuity correction
-  # data:  frequency by relativeDis
-  # W = 42504, p-value = 5.81e-06
-  # alternative hypothesis: true location shift is not equal to 0
   toCompare<-c("-100","-1001")
   compare100to1001 <- tmp %>%
     filter(relativeDistoGene %in% toCompare)
@@ -210,11 +180,6 @@ allData<-data.table::fread(paste0(outDir,'01.06_epiallele_sample.tsv'), sep = '\
     frequency ~ relativeDis,
     data = compare100to1001
   )
-  # Wilcoxon rank sum test with continuity correction
-  # 
-  # data:  frequency by relativeDis
-  # W = 1734770, p-value = 3.503e-06
-  # alternative hypothesis: true location shift is not equal to 0
   
   ggplot(tmp, aes(x = absDistanceTE, y = frequency)) +
     geom_point() +

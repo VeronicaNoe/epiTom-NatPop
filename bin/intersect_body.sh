@@ -1,9 +1,9 @@
 CHR="$( cat $1 | cut -d'_' -f1 )"
 echo $CHR
-CG="/mnt/disk2/vibanez/02_methylkit/ab_preprocessing/ag_merge_CG-DMR/bb_output"
-C="/mnt/disk2/vibanez/02_methylkit/ab_preprocessing/ah_merge_C-DMR/bb_output"
-ANNOPATH="/mnt/disk2/vibanez/02_methylkit/ac_annotation/aa_data"
-OUTPATH="/mnt/disk2/vibanez/02_methylkit/ac_annotation/gbM"
+CG="02_methylkit/ab_preprocessing/ag_merge_CG-DMR/bb_output"
+C="02_methylkit/ab_preprocessing/ah_merge_C-DMR/bb_output"
+ANNOPATH="02_methylkit/ac_annotation/aa_data"
+OUTPATH="02_methylkit/ac_annotation/gbM"
 ### CG
 echo '======= CG-DMR ======'
 echo '------q1 gene'

@@ -1,5 +1,5 @@
-INDIR="/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bd_get-DMR-meth-gene-expression-correlation/tmp"
-OUTDIR="/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/be_merged_correlations"
+INDIR="10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bd_get-DMR-meth-gene-expression-correlation/tmp"
+OUTDIR="10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/be_merged_correlations"
 OUTPUT_FILE="$OUTDIR/allCorrelation_meth-geneExpression.tsv"
 ANNO_DIR=""
 # Combine files while skipping headers

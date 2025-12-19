@@ -1,9 +1,9 @@
 # get metaplot_koDEG
-GENE_LIST="/mnt/disk2/vibanez/10_data-analysis/Fig4/results"
-ANNO_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
-OUTDIR="/mnt/disk2/vibanez/10_data-analysis/Fig4/results"
-OUTPLOT="/mnt/disk2/vibanez/10_data-analysis/Fig4/plots"
-BIGWIG_DIR="/mnt/disk2/vibanez/09_KO-processing/09.3_igv-files"
+GENE_LIST="10_data-analysis/Fig4/results"
+ANNO_DIR="05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
+OUTDIR="10_data-analysis/Fig4/results"
+OUTPLOT="10_data-analysis/Fig4/plots"
+BIGWIG_DIR="09_KO-processing/09.3_igv-files"
 # Extract coordinates for each category
 for KO in ddm1 cmt3 met1; do
     echo "Processing $KO..."

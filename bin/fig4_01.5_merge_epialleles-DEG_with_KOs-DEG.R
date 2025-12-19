@@ -1,4 +1,4 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
+#!/usr/bin/Rscript
 suppressPackageStartupMessages({
   library(dplyr)
   library(ggpubr)
@@ -10,13 +10,9 @@ suppressPackageStartupMessages({
   library(viridis)
   library(tidyr)
 })
-#in Camus:/mnt/disk2/vibanez/02_methylkit/ag_poliepiallelic-genes/toMergeFiles
-# setwd("~/Desktop/Q-lab/IBANEZ_etal_2024/Fig4/data")
-# outDir<-"~/Desktop/Q-lab/IBANEZ_etal_2024/Fig4/results/"
-# outPlot<-"~/Desktop/Q-lab/IBANEZ_etal_2024/Fig4/plots/"
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/plots/"
+setwd("10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles")
+outDir<-"10_data-analysis/Fig4/results/"
+outPlot<-"10_data-analysis/Fig4/plots/"
 
 
 ########################################################################################
@@ -40,7 +36,7 @@ epialleleState$accessions<-gsub('_leaf','',epialleleState$accessions)
 unique(epialleleState$sampleEpiallele)
 
 # get TE distance to genes
-geneTEdistance<- data.table::fread("/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/TE_closest_gene.tsv", sep = '\t', 
+geneTEdistance<- data.table::fread("05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/TE_closest_gene.tsv", sep = '\t', 
                                    data.table = T, fill = TRUE, check.names=FALSE,na.string=c("NA"), nThread = 10)
 colnames(geneTEdistance)[4]<-"strand"
 colnames(geneTEdistance)[5]<-"geneName"

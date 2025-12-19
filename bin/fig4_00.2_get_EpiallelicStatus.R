@@ -1,4 +1,4 @@
-		#!/users/bioinfo/vibanez/miniconda3/envs/methylKit/bin/Rscript
+#!/usr/bin/Rscript
 suppressPackageStartupMessages({
 	library(dplyr)
 	library(plyr)
@@ -6,8 +6,8 @@ suppressPackageStartupMessages({
 	library(tidyr)
 })
 
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bb_split-data-by-gene")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bc_gene-epialleles/"
+setwd("10_data-analysis/Fig4/aa_get-epialleles-over-genes/bb_split-data-by-gene")
+outDir<-"10_data-analysis/Fig4/aa_get-epialleles-over-genes/bc_gene-epialleles/"
 args <- commandArgs(trailingOnly = TRUE)
 
 epialleleState<- data.table::fread(paste0(args[1],"_allSamples_epialleles.tsv"), sep = '\t', 

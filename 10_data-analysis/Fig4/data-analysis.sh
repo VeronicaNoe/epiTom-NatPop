@@ -15,7 +15,7 @@ Rscript --vanilla ~/bin/fig4_01.4_gene-expression_epiallele.R
 Rscript --vanilla ~/bin/fig4_01.5_merge_epialleles-DEG_with_KOs-DEG.R
 
 ### get geneList coordinates
-ANNO_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
-RESULT_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig4/results"
+ANNO_DIR="05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
+RESULT_DIR="10_data-analysis/Fig4/results"
 grep -Ff ${RESULT_DIR}/gene_list.tsv ${ANNO_DIR}/allGenes.bed > ${RESULT_DIR}/geneList_coordinates.bed
 

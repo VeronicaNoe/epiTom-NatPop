@@ -1,4 +1,4 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
+#!/usr/bin/Rscript
 suppressPackageStartupMessages({
   library(dplyr)
   library(plyr)
@@ -7,11 +7,11 @@ suppressPackageStartupMessages({
   library(parallel)
 })
 
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/ba_DMRs-over-annotation")
-outResults<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/results/"
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bb_split-data-by-gene/"
+setwd("10_data-analysis/Fig4/aa_get-epialleles-over-genes/ba_DMRs-over-annotation")
+outResults<-"10_data-analysis/Fig4/results/"
+outDir<-"10_data-analysis/Fig4/aa_get-epialleles-over-genes/bb_split-data-by-gene/"
 
-geneTE<-data.table::fread("/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/gene-TE.ID", sep = '\t', data.table = T, 
+geneTE<-data.table::fread("05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/gene-TE.ID", sep = '\t', data.table = T, 
                           fill = TRUE, check.names=FALSE,na.string=c("NA"), nThread = 10)
 geneTE$V5<-gsub('Name=','',geneTE$V5)
 geneTE<-unlist(strsplit(geneTE$V5, split = ","))
@@ -44,12 +44,10 @@ for (i in input){
 }
 # 
 # data.table::fwrite(epialleleState, file=paste0(outResults,"00.1.allSamples_epiAlleles.tsv"), quote=F,row.names=F,col.names = T,sep="\t")
-#save 02
 genes<-unique(epialleleState$geneName)
-# 30547
 #data.table::fwrite(as.data.table(genes), file=paste0(outDir,"00.2.geneList2target"), quote=F,
 #                  row.names=F,col.names = F,sep="\t")
-allGenes<-data.table::fread("/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/allGenes.bed", sep = '\t', data.table = T, 
+allGenes<-data.table::fread("05_DMR-processing/05.2_DMR-annotation/aa_annotation-data/allGenes.bed", sep = '\t', data.table = T, 
                           fill = TRUE, check.names=FALSE,na.string=c("NA"), nThread = 10)
 allGenes<-allGenes %>%
   filter(V1!="SL2.50ch00")

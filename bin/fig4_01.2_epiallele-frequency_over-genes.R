@@ -7,9 +7,9 @@ suppressPackageStartupMessages({
   library(tidyr)
   library(purrr)
 })
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/plots/"
+setwd("10_data-analysis/Fig4/aa_get-epialleles-over-genes/bd_merged-gene-epialleles")
+outDir<-"10_data-analysis/Fig4/results/"
+outPlot<-"10_data-analysis/Fig4/plots/"
 
 
 allData<-data.table::fread(paste0(outDir,'01.06_epiallele_sample.tsv'), sep = '\t',
@@ -339,119 +339,3 @@ allData<-data.table::fread(paste0(outDir,'01.06_epiallele_sample.tsv'), sep = '\
                        quote=F,row.names=F,col.names = F,sep="\t")
   }
 }
-  #### heatmap for the change in frequency
-  ## no sense
-  {
-  # genePimSlc<-PimSlc %>% filter(sig_levels==0.00001)
-  # genePimSlc<-genePimSlc$geneName
-  # tmp<-allData[geneName %in% genePimSlc,]
-  # tmp <- tmp %>%
-  #   group_by(geneName, geneType, geneEpiallele, annotationMerged, accessions,accGroup) %>%
-  #   dplyr::summarise(
-  #     sampleEpiallele = ifelse(any(sampleEpiallele != "UM"),
-  #                              ifelse(any(sampleEpiallele == "teM"), "teM",
-  #                                     ifelse(any(sampleEpiallele == "gbM"), "gbM","UM")),
-  #                              "UM")) %>%
-  #   ungroup()
-  # summ<-tmp %>%
-  #   group_by(geneName, geneType, geneEpiallele, annotationMerged,accessions,accGroup) %>%
-  #   dplyr::summarise(sumSampleEpi = paste(unique(sampleEpiallele), collapse = ",")) %>%
-  #   ungroup()
-  # setDT(summ)
-  # summ[, sumEpiallele := sumSampleEpi]
-  # # get the sampleEpiallele
-  # summ[grepl("gbM", sumSampleEpi) & grepl("teM", sumSampleEpi), sumEpiallele := "teM"]
-  # summ[grepl("teM", sumSampleEpi) & !grepl("gbM", sumSampleEpi), sumEpiallele := "teM"]
-  # summ[grepl("gbM", sumSampleEpi) & !grepl("teM", sumSampleEpi), sumEpiallele := "gbM"]
-  # 
-  # counts<-summ%>%
-  #   group_by(geneName, geneType, geneEpiallele, annotationMerged) %>%
-  #   dplyr::summarise(nUM = sum(sumEpiallele == "teM") / n()) %>%
-  #   arrange(desc(nUM))%>%
-  #   ungroup()
-  # 
-  # summ <- summ %>%
-  #   left_join(counts, by = "geneName") 
-  # 
-  # summ$sampleEpiallele <- factor(summ$sampleEpiallele, levels = c("UM", "gbM", "teM"))
-  # summ$accGroup <- factor(summ$accGroup, levels = c("WILD", "PIM", "SLC", "SLL"))
-  # summ <- summ %>%
-  #   arrange(accGroup, accessions)
-  # # Ensure geneName and accessions are factors for proper ordering in the heatmap
-  # summ$geneName <- factor(summ$geneName, levels = counts$geneName)
-  # summ$accessions <- factor(summ$accessions, levels = unique(summ$accessions))
-  # 
-  # ggplot(summ, aes(x = accessions, y = geneName, fill = sumEpiallele)) +
-  #   geom_tile(color = "white") +
-  #   scale_fill_manual(values = c("UM" = "grey", "gbM" = '#ffca7b', "teM" = '#820a86')) +
-  #   theme_bw()+
-  #   theme(
-  #     axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, size = 6),  # Adjust x-axis text size and position
-  #     axis.text.y = element_text(size = 6)  # Adjust y-axis text size
-  #   ) +
-  #   labs(
-  #     title = "Heatmap of Sample Epiallele with teM Count",
-  #     x = "Accessions",
-  #     y = "Gene Name",
-  #     fill = "Sample Epiallele"
-  #   )
-  # ggsave(paste0(outPlot,"04.3.teM_lowPIM-highSLC_frequency.pdf"),  width = 20, height = 20, units = "cm")
-  # ############ SLC high Low SLL
-  # geneSlcSll<-SlcSll %>% filter(sig_levels==0.00001)
-  # geneSlcSll<-geneSlcSll$geneName
-  # 
-  # tmp<-allData[geneName %in% geneSlcSll,]
-  # tmp <- tmp %>%
-  #   group_by(geneName, geneType, geneEpiallele, annotationMerged, accessions,accGroup) %>%
-  #   dplyr::summarise(
-  #     sampleEpiallele = ifelse(any(sampleEpiallele != "UM"),
-  #                              ifelse(any(sampleEpiallele == "teM"), "teM",
-  #                                     ifelse(any(sampleEpiallele == "gbM"), "gbM","UM")),
-  #                              "UM")) %>%
-  #   ungroup()
-  # summ<-tmp %>%
-  #   group_by(geneName, geneType, geneEpiallele, annotationMerged,accessions,accGroup) %>%
-  #   dplyr::summarise(sumSampleEpi = paste(unique(sampleEpiallele), collapse = ",")) %>%
-  #   ungroup()
-  # setDT(summ)
-  # summ[, sumEpiallele := sumSampleEpi]
-  # # get the sampleEpiallele
-  # summ[grepl("gbM", sumSampleEpi) & grepl("teM", sumSampleEpi), sumEpiallele := "teM"]
-  # summ[grepl("teM", sumSampleEpi) & !grepl("gbM", sumSampleEpi), sumEpiallele := "teM"]
-  # summ[grepl("gbM", sumSampleEpi) & !grepl("teM", sumSampleEpi), sumEpiallele := "gbM"]
-  # 
-  # counts<-summ%>%
-  #   group_by(geneName, geneType, geneEpiallele, annotationMerged) %>%
-  #   dplyr::summarise(nUM = sum(sumEpiallele == "teM") / n()) %>%
-  #   arrange(desc(nUM))%>%
-  #   ungroup()
-  # 
-  # summ <- summ %>%
-  #   left_join(counts, by = "geneName") 
-  # 
-  # summ$sampleEpiallele <- factor(summ$sampleEpiallele, levels = c("UM", "gbM", "teM"))
-  # summ$accGroup <- factor(summ$accGroup, levels = c("WILD", "PIM", "SLC", "SLL"))
-  # summ <- summ %>%
-  #   arrange(accGroup, accessions)
-  # # Ensure geneName and accessions are factors for proper ordering in the heatmap
-  # summ$geneName <- factor(summ$geneName, levels = counts$geneName)
-  # summ$accessions <- factor(summ$accessions, levels = unique(summ$accessions))
-  # 
-  # ggplot(summ, aes(x = accessions, y = geneName, fill = sumEpiallele)) +
-  #   geom_tile(color = "white") +
-  #   scale_fill_manual(values = c("UM" = "grey", "gbM" = '#ffca7b', "teM" = '#820a86')) +
-  #   theme_bw()+
-  #   theme(
-  #     axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, size = 6),  # Adjust x-axis text size and position
-  #     axis.text.y = element_text(size = 6)  # Adjust y-axis text size
-  #   ) +
-  #   labs(
-  #     title = "Heatmap of Sample Epiallele with teM Count",
-  #     x = "Accessions",
-  #     y = "Gene Name",
-  #     fill = "Sample Epiallele"
-  #   )
-  # ggsave(paste0(outPlot,"04.4.teM_highSLC-lowSLL_frequency.pdf"),  width = 20, height = 20, units = "cm")
-  }
-}
-

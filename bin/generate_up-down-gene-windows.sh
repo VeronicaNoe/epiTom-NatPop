@@ -3,8 +3,8 @@ ACOL="$( cat $1| cut -d'_' -f1 )"
 WIN="$( cat $1 | cut -d'_' -f2 )"
 DCOL="$( cat $1 | cut -d'_' -f3 )"
 
-OUTDIR="/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/ba_get-up-down-gene-coordinates"
-INDIR="/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
+OUTDIR="10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/ba_get-up-down-gene-coordinates"
+INDIR="05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
 
 
 # Extract upstream windows

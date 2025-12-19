@@ -1,13 +1,12 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
+#!/usr/bin/Rscript
 suppressPackageStartupMessages({
   library(tidyr)
 })
 args <- commandArgs(trailingOnly = TRUE)
 #set paths and chr
 
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bc_format-data")
-#plotDir<-"/mnt/disk2/vibanez/gene-promotor/plot/"
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bd_get-DMR-meth-gene-expression-correlation/tmp/"
+setwd("10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bc_format-data")
+outDir<-"10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bd_get-DMR-meth-gene-expression-correlation/tmp/"
 
 print("###### Loading meth data")
 chr<-args[1]
@@ -25,13 +24,10 @@ gene<-unique(methLevels$geneName)
 
 print("###### Loading gene data")
 
-geneExpression<-data.table::fread('/mnt/disk2/vibanez/07_rnaseq-processing/07.3_counts/leaf_transcriptome-counts_normalized_batch-adjusted.tsv', sep = '\t',
+geneExpression<-data.table::fread('07_rnaseq-processing/07.3_counts/leaf_transcriptome-counts_normalized_batch-adjusted.tsv', sep = '\t',
                                   data.table = FALSE, fill = TRUE, check.names=FALSE,
                                   na.string=c("NA"), nThread = 10)
 
-# geneExpression<-data.table::fread('00_gene-expression.tsv', sep = '\t',
-#                                   data.table = FALSE, fill = TRUE, check.names=FALSE,
-#                                   na.string=c("NA"), nThread = 10)
 print("###### Calculating correlations")
 for(g in gene){
   tmpMethLevels<-subset(methLevels, geneName==g)

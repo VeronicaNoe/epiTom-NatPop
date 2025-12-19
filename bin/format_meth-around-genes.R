@@ -1,14 +1,14 @@
-#!/home/vibanez/anaconda3/envs/mKit/bin/Rscript
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bb_get-meth-levels-around-gene-windows")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bc_format-data/"
+#!/usr/bin/Rscript
+setwd("10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bb_get-meth-levels-around-gene-windows")
+outDir<-"10_data-analysis/Fig4/aa_identify-gene-region-affected-by-methylation/bc_format-data/"
 
 # get colnames form RNAseq data
-rnaData<-data.table::fread("/mnt/disk2/vibanez/07_rnaseq-processing/07.3_counts/leaf_transcriptome-counts_normalized_batch-adjusted.tsv", 
+rnaData<-data.table::fread("07_rnaseq-processing/07.3_counts/leaf_transcriptome-counts_normalized_batch-adjusted.tsv", 
                            sep = '\t',
                            data.table = F, fill = TRUE, check.names=FALSE,
                            na.string=c("NA"), nThread = 10)
 #
-sampleNames<-data.table::fread("/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation/C-DMR_colNames.tsv",
+sampleNames<-data.table::fread("05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation/C-DMR_colNames.tsv",
                                sep = '\t',header=F,data.table = FALSE, fill = TRUE, check.names=FALSE,
                                na.string=c("NA"), nThread = 10)
 
