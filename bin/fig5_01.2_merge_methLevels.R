@@ -1,4 +1,4 @@
-setwd("/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation")
+setwd("05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation")
 inMeth<-list.files(pattern = ".methylation", full.names = FALSE)
 methLevels<-c()
 for(m in inMeth){

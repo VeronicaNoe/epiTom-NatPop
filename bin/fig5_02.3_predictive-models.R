@@ -11,9 +11,9 @@ suppressPackageStartupMessages({
 })
 
 # Define directories
-inDir <- "/mnt/disk2/vibanez/10_data-analysis/Fig5/ac_genomic_prediction/ba_formated-data/"
-clusterDir<- "/mnt/disk2/vibanez/10_data-analysis/Fig5/ac_genomic_prediction/bb_sample-clustering/"
-outDir <- "/mnt/disk2/vibanez/10_data-analysis/Fig5/ac_genomic_prediction/bc_predicted-values/"
+inDir <- "/10_data-analysis/Fig5/ac_genomic_prediction/ba_formated-data/"
+clusterDir<- "10_data-analysis/Fig5/ac_genomic_prediction/bb_sample-clustering/"
+outDir <- "10_data-analysis/Fig5/ac_genomic_prediction/bc_predicted-values/"
 
 # Arguments
 args <- commandArgs(trailingOnly = TRUE)
@@ -21,10 +21,6 @@ mm <- args[1]  # Marker type: "SNP" or "DMR"
 tt <- args[2]  # Trait
 tissue <- args[3]  # Tissue
 dataSet <- args[4]  # Cluster type: "SNP", "DMR", "Combined"
-#mm <- "DMR"  # For testing
-#tt <- "Tm003"  # For testing
-#tissue <- "leaf"  # For testing
-#dataSet <- "snp-wo-na-all-dmrs"  # For testing
 
 # Load marker data
 markerP <- data.table::fread(paste0(inDir, mm, '_', tissue, '-metabolite.tsv'), 
@@ -42,7 +38,7 @@ traits$V1 <- NULL
 y <- log2(as.vector(traits[, tt]))
 
 # Load cluster information based on the specified cluster type
-#cluster_file <- paste0(clusterDir, mm, "_cluster_",dataSet,".tsv")
+#cluster_file <- paste0(clusterDir, mm, "_cluster_",dataSet,".tsv") # 4 supplementary data
 cluster_file <- paste0(clusterDir, "genetic-distance-clustering_cluster.tsv")
 cluster_info <- data.table::fread(cluster_file, sep = '\t', header = TRUE, data.table = FALSE, fill = TRUE, na.strings = "NA")
 colnames(cluster_info) <- c("Sample", "Cluster")

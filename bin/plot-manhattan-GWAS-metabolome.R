@@ -4,9 +4,9 @@ suppressPackageStartupMessages({
 })
 args <- commandArgs(trailingOnly = TRUE)
 
-indir <- "/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/bd_results/sig"
-outPlot <- "/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/be_check-GIF/cb_plots"
-outDir <- "/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/be_check-GIF/cc_lambda-tables"
+indir <- "10_data-analysis/Fig5/aa_GWAS-metabolome/bd_results/sig"
+outPlot <- "10_data-analysis/Fig5/aa_GWAS-metabolome/be_check-GIF/cb_plots"
+outDir <- "10_data-analysis/Fig5/aa_GWAS-metabolome/be_check-GIF/cc_lambda-tables"
 file <- args[1]
 #input <- list.files(path = indir, pattern = ".ps.gz", full.names = TRUE)
 #input<-grep("Tm078", input, value=T)

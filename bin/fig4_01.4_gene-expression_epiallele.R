@@ -27,12 +27,12 @@ suppressPackageStartupMessages({
   library(viridis)
   
 })
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig4/results")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig4/plots/"
+setwd("10_data-analysis/Fig4/results")
+outDir<-"10_data-analysis/Fig4/results/"
+outPlot<-"10_data-analysis/Fig4/plots/"
 
 {
-geneExp<-data.table::fread("/mnt/disk2/vibanez/07_rnaseq-processing/07.3_counts/leaf-transcriptome_deseq-combat.tsv", sep = '\t', 
+geneExp<-data.table::fread("07_rnaseq-processing/07.3_counts/leaf-transcriptome_deseq-combat.tsv", sep = '\t', 
                            data.table = T, fill = TRUE, check.names=FALSE,
                            na.string=c("NA"), nThread = 10)
 geneExp <- geneExp %>%
@@ -161,13 +161,7 @@ ggsave(paste0(outPlot,"04.01.geneExpression-gbM-Epiallele_volcano.pdf"),  width 
 merged_gbM %>%
   group_by(significance) %>%
   dplyr::summarise(n())
-# A tibble: 4 × 2
-# significance  `n()`
-# <chr>         <int>
-# 1 downregulated    65
-# 2 moderated       685
-# 3 neutral       11242
-# 4 upregulated      84
+
 ###
 teM_bi <- genes2plot %>%
   filter(sEpi == "teM,UM")%>%
@@ -208,14 +202,7 @@ ggsave(paste0(outPlot,"04.02.geneExpression-teM-Epiallele_volcano.pdf"),  width 
 merged_teM %>%
   group_by(significance) %>%
   dplyr::summarise(n())
-# # A tibble: 4 × 2
-# significance  `n()`
-# <chr>         <int>
-#   1 downregulated   389
-# 2 moderated       403
-# 3 neutral        4479
-# 4 upregulated      47
-#
+
 # Create the plot with counts and p-values
 merged_teM %>%
   filter(significance=="downregulated" & logP>20)
@@ -271,12 +258,6 @@ nDEG %>%
   group_by(significant_direction) %>%
   dplyr::summarise(count = n())
 }
-# A tibble: 3 × 2
-# significant_direction count
-# <chr>                 <int>
-# 1 Down                     28
-# 2 Up                        2
-# 3 Up-gbM_Down-teM          11
 long_significant_genes %>%
   filter(significant_direction=="Up-gbM_Down-teM") %>%
   select(geneName)
@@ -368,20 +349,8 @@ merged_teM %>%
   group_by(significance)%>%
   dplyr::summarise(nCases= n())
 
-# A tibble: 4 × 2
-# significance  nCases
-# <chr>          <int>
-# 1 downregulated     55
-# 2 moderated        104
-# 3 neutral          850
-# 4 upregulated       12
 c# A tibble: 4 × 2
-# significant_direction nCases
-# <chr>                  <int>
-# 1 Down                      25
-# 2 Down-gbM_Up-teM            2
-# 3 Up                         5
-# 4 Up-gbM_Down-teM            8
+
 DEG<-significant_pe %>%
   filter(geneName %in% geneList$geneName ) %>%
   group_by(significant_direction)

@@ -2,8 +2,8 @@ suppressPackageStartupMessages({
   library(plyr)
   library(dplyr)
 })
-setwd("/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results")
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
+setwd("10_data-analysis/Fig5/ab_data-analysis/results")
+outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
 input<-list.files(path=outDir, pattern = "closest", full.names = FALSE)
 out<-c()
 for(i in input){

@@ -1,10 +1,10 @@
 #!/bin/bash
 start_time=$(date +%s)
 META="$( cat $1 | cut -d'_' -f1 )"
-META_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/bb_phenotype/formated-files"
+META_DIR="10_data-analysis/Fig5/aa_GWAS-metabolome/bb_phenotype"
 
-OUT_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/bd_results"
-MM_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/ba_markers"
+OUT_DIR="10_data-analysis/Fig5/aa_GWAS-metabolome/bd_results"
+MM_DIR="10_data-analysis/Fig5/aa_GWAS-metabolome/ba_markers"
 MM="$( cat $1 | cut -d'_' -f2 )"
 
 KINSHIP="$( cat $1 | cut -d'_' -f3 )"

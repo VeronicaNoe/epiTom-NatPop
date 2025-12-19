@@ -5,12 +5,12 @@ suppressPackageStartupMessages({
     library(dplyr)
     library(tidyr)
   })
-  basedir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome"
-  outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-  outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/plots/"
+  basedir<-"10_data-analysis/Fig5/aa_GWAS-metabolome"
+  outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
+  outPlot<-"10_data-analysis/Fig5/ab_data-analysis/plots/"
   
   ######################### load methylation levles
-  inDir<-"/mnt/disk2/vibanez/05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation/"
+  inDir<-"05_DMR-processing/05.1_DMR-classification/05.2_merge-DMRs/aa_natural-accessions/ab_merge-methylation/"
   methLevels<-data.table::fread(paste0(inDir,'DMR_methylationLevels'), sep = '\t', 
                                 data.table = FALSE,
                                 fill = TRUE, na.string=c("NA"), nThread = 20)
@@ -20,7 +20,7 @@ suppressPackageStartupMessages({
   rownames(methLevels)<-methLevels$DMRs
   head(methLevels)
   ########################## Load methylation status
-  methStatus<-data.table::fread("/mnt/disk2/vibanez/06_get-meth-vcf/ac_vcf-metabolome/DMR_general_leaf-metabolome_LD.vcf", 
+  methStatus<-data.table::fread("06_get-meth-vcf/ac_vcf-metabolome/DMR_general_leaf-metabolome_LD.vcf", 
                                 skip="#CHROM", sep = '\t', data.table = FALSE,
                                 fill = TRUE, na.string=c("NA"), nThread = 20)
   tmpCol <- do.call(rbind, strsplit(methStatus$ID, ":"))
@@ -36,7 +36,7 @@ suppressPackageStartupMessages({
   methStatus[1:3,1:10]
   
   ######################### load metabolite data
-  metaboliteData<- data.table::fread("/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/bb_phenotype/raw/leaf.metabolites.tsv", sep = '\t', data.table = FALSE, fill = TRUE, na.string=c("NA"), nThread = 20)
+  metaboliteData<- data.table::fread("10_data-analysis/Fig5/aa_GWAS-metabolome/bb_phenotype/raw/leaf.metabolites.tsv", sep = '\t', data.table = FALSE, fill = TRUE, na.string=c("NA"), nThread = 20)
   head(metaboliteData)
   metaboliteData$Accessions<-gsub('_1','', metaboliteData$Accessions)
   metaboliteData$Accessions<-gsub('S_','S-', metaboliteData$Accessions)

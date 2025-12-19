@@ -3,8 +3,8 @@ suppressPackageStartupMessages({
   library(dplyr)
 })
 
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/plots/"
+outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
+outPlot<-"10_data-analysis/Fig5/ab_data-analysis/plots/"
 
 ## load DMR annotation
 mQTLanno<- data.table::fread(paste0(outDir,'05.0_QTL-annotated.tsv'),
@@ -24,7 +24,8 @@ meth.meta<- data.table::fread(paste0(outDir,'03.0_methylation-metabolite_correla
                               fill = TRUE, na.string=c("NA"), nThread = 20)
 head(meth.meta)
 ## load metabolite names
-metaNames<- data.table::fread('/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/bb_phenotype/raw/metabolites_name.csv', sep = '\t', data.table = T, 
+#
+metaNames<- data.table::fread('01_raw-data/01.3_phenotypic-traits/metabolites_name.csv', sep = '\t', data.table = T, 
                               header = T,fill = TRUE, na.string=c("NA"), nThread = 20)
 ## load DMR target KO
 koTargets<- data.table::fread(paste0(outDir,'07.1_DMRs-over-KO.tsv'), sep = '\t', 
@@ -62,12 +63,6 @@ koTargets
 metaName_mQTLanno_corExpMeth_corMethMeta <- metaName_mQTLanno_corExpMeth %>%
   left_join(koTargets, by = c("QTL" = "DMR")) %>%
   select(-chr, -start,-end,-DMRtarget)
-########### ########### ########### ########### ########### 
-########### add maf and H2 of the DMRs
-########### ########### ########### ########### ########### 
-# maf<-data.table::fread("/home/IPS2/vibanez/Desktop/Q-lab/2024/06_DMR-GWAS/results/00_merged-maf.tsv", 
-#                        sep = '\t', data.table = FALSE, fill = TRUE, check.names=FALSE,
-#                        na.string=c("NA"), nThread = 10)
 
 data.table::fwrite(metaName_mQTLanno_corExpMeth_corMethMeta, 
                    file= paste0(outDir,'08.1_master_table.tsv'), 

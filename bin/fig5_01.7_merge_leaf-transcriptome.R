@@ -5,9 +5,9 @@ suppressPackageStartupMessages({
     library(sva)
   })
   
-  setwd("/mnt/disk2/vibanez/07_rnaseq-processing/07.3_counts")
-  outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-  outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/plots/"
+  setwd("07_rnaseq-processing/07.3_counts")
+  outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
+  outPlot<-"10_data-analysis/Fig5/ab_data-analysis/plots/"
   
   input<-list.files(pattern = "_edited.tsv", full.names = FALSE)
   input<-grep("TS-179",input,value = T ,invert = T)

@@ -3,9 +3,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-inDir<-"/mnt/disk2/vibanez/09_KO-processing/natural-experimental_DMR/"
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-# data from Camus:/mnt/disk2/vibanez/natural-experimental_DMR
+inDir<-"09_KO-processing/natural-experimental_DMR/"
+outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
 #################### LOAD DATA TO MERGE  ######################################################
 input<-list.files(path=inDir,pattern = "bed", full.names = FALSE)
 

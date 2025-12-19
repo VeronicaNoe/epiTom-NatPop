@@ -6,11 +6,10 @@ suppressPackageStartupMessages({
   library(ggridges)
   library(ggplot2)
 })
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/plots/"
+outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
+outPlot<-"10_data-analysis/Fig5/ab_data-analysis/plots/"
 #### get numbers of metabolites associ-non-associated
-
-basedir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/bd_results/"
+basedir<-"10_data-analysis/Fig5/aa_GWAS-metabolome/bd_results/"
 asso<-c('sig/','nonSig/','nonSig-GIF/')
 out<-c()
 betaVals<-c()
@@ -101,15 +100,6 @@ head(out)
     group_by(mm ,kinship) %>%
     dplyr::summarise(mean_h2 =mean(h2, na.rm=T))
 
-  # A tibble: 4 × 3
-  # Groups:   mm [2]
-#   mm    kinship mean_h2
-#   <chr> <chr>     <dbl>
-# 1 DMR   DMR       0.656
-# 2 DMR   SNP       0.394
-# 3 SNP   DMR       0.656
-# 4 SNP   SNP       0.394
-
     # Create the plot with specified facet order
   ggplot(H2split, aes(x = h2, color=kinship, fill=kinship)) + 
     geom_density(alpha=0.1) +
@@ -129,17 +119,6 @@ head(out)
   summary_df<-h2 %>%
     group_by(mm, resultType) %>%
     dplyr::summarise(mean_h2 =mean(h2, na.rm=T))
-  
-  # # A tibble: 6 × 3
-  # # Groups:   mm [2]
-  # mm    resultType mean_h2
-  # <chr> <chr>        <dbl>
-  #   1 DMR   nonSig       0.626
-  # 2 DMR   nonSig-GIF   0.756
-  # 3 DMR   sig          0.719
-  # 4 SNP   nonSig       0.640
-  # 5 SNP   nonSig-GIF   0.747
-  # 6 SNP   sig          0.814
   
   # Create the plot with specified facet order
   ggplot(h2, aes(x = h2, color = mm, fill = mm)) + 
@@ -182,30 +161,4 @@ data.table::fwrite(summLoci,
                    file= paste0(outDir,'01.4_number-loci-metabolite_associated.tsv'), quote=F,
                    row.names=F,col.names = T,sep="\t")
 
-# A tibble: 2 × 2
-# mm    nLoci
-# <chr> <dbl>
-# 1 DMR     943
-# 2 SNP     556
 
-#### get a venn diagram for metabolites
-{
-# Summarize significant metabolites across all `mm`
-# summary_table <- out %>%
-#   filter(resultType == "sig" & mm !="DMR-SNP") %>%
-#   group_by(metabolite) %>%
-#   dplyr::summarise(
-#     mm_group = paste(unique(mm), collapse = ":"),  # Combine unique `mm` values
-#     .groups = "drop"
-#   ) %>%
-#   group_by(mm_group) %>%
-#   dplyr::summarise(event_count = n(),  # Count the number of occurrences per `mm_group`
-#     .groups = "drop"
-#   )
-# 
-# vennPlot <- euler(c("SNPs" = 15, "DMRs" = 38, "SNPs&DMRs" = 22),shape = "ellipse")
-# #save them
-# pdf(paste0(outPlot, "01.0_SNPs-DMRs_venn.pdf"))
-# plot(vennPlot,quantities = list(type = c("percent", "counts"), font = 3))
-# dev.off()
-}

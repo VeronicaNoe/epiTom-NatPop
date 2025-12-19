@@ -1,8 +1,7 @@
 #!/bin/bash
-#!/bin/bash
-QTL="/mnt/disk2/vibanez/10_data-analysis/Fig5/results/01.1_QTLs_with_coordinates.tsv"
-ANNO_DIR="/mnt/disk2/vibanez/05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
-OUT_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig5/results"
+QTL="10_data-analysis/Fig5/results/01.1_QTLs_with_coordinates.tsv"
+ANNO_DIR="05_DMR-processing/05.2_DMR-annotation/aa_annotation-data"
+OUT_DIR="10_data-analysis/Fig5/results"
 
 # Fix chromosome naming with leading zeros
 awk 'NR > 1 {

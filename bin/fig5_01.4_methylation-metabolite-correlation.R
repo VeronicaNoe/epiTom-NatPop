@@ -5,9 +5,9 @@ suppressPackageStartupMessages({
     library(tidyr)
   })
   
-  basedir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome"
-  outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-  outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/plots/"
+  basedir<-"10_data-analysis/Fig5/aa_GWAS-metabolome"
+  outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
+  outPlot<-"10_data-analysis/Fig5/ab_data-analysis/plots/"
   df<-data.table::fread(paste0(outDir,"02.0_merged-mLevels-mStatus-metaLevels.tsv"),
                         sep = '\t', data.table = TRUE, 
                         fill = TRUE, na.string=c("NA"), nThread = 20)

@@ -1,7 +1,7 @@
 #!/bin/bash
+
 ## Get number of metabolites with QTLs per molecular marker and kinship
 ## PLot the heritability of each marker
-
 Rscript --vanilla ~/bin/fig5_01.0_general-description.R
 
 ## Merge methylation status, methylation levels, metabolite levels
@@ -23,7 +23,3 @@ Rscript --vanilla ~/bin/fig5_01.8_merge_methylation-meta-transcriptome.R
 Rscript --vanilla ~/bin/fig5_01.9_get-KOs-over-DMRs.R
 # get the master table
 Rscript --vanilla ~/bin/fig5_01.10_get-master-table.R
-#####
-###
-# CHECK 04.4_get-DMR-positions.R I don't know what is this
-# the manahttan-plots for candidate loci

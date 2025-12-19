@@ -8,13 +8,13 @@ suppressPackageStartupMessages({
   library(gridExtra)
 })
 
-outDir<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/results/"
-outPlot<-"/mnt/disk2/vibanez/10_data-analysis/Fig5/ab_data-analysis/plots/"
+outDir<-"10_data-analysis/Fig5/ab_data-analysis/results/"
+outPlot<-"10_data-analysis/Fig5/ab_data-analysis/plots/"
 
   ############################################################
   ## load genes  & mQTL
   ############################################################
-transcriptome<- data.table::fread("/mnt/disk2/vibanez/07_rnaseq-processing/07.3_counts/leaf-transcriptome_deseq-combat.tsv", 
+transcriptome<- data.table::fread("07_rnaseq-processing/07.3_counts/leaf-transcriptome_deseq-combat.tsv", 
                                                  sep = '\t', data.table = T, fill = TRUE, 
                                                  na.string=c("NA"), nThread = 20)
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 MM="$( cat $1 )"
-OUT_DIR="/mnt/disk2/vibanez/10_data-analysis/Fig5/aa_GWAS-metabolome/ba_markers"
+OUT_DIR="10_data-analysis/Fig5/aa_GWAS-metabolome/ba_markers"
 if [[ ${MM} == "DMR" || ${MM} == "DMR-SNP" ]]; then
-	IN_DIR="/mnt/disk2/vibanez/06_get-meth-vcf/ac_vcf-metabolome"
+	IN_DIR="06_get-meth-vcf/ac_vcf-metabolome"
 else
-	IN_DIR="/mnt/disk2/vibanez/01_raw-data/01.2_vcfiles/ab_vcf-metabolome"
+	IN_DIR="01_raw-data/01.2_vcfiles/ab_vcf-metabolome"
 fi
 
 plink --vcf ${IN_DIR}/${MM}"_general_leaf-metabolome_LD.vcf" \
