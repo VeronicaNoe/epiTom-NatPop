@@ -99,7 +99,7 @@ Activate the appropriate Conda environments.
 Place your raw *.fq.gz files and sample sheets according to the expected
 layout in 01_raw-data/.
 
-4.**Run the processing steps**
+4. **Run the processing steps**
 Each numbered directory contains one or more Makefiles. The typical
 usage is:
   ```bash 
