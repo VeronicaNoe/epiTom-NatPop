@@ -7,9 +7,9 @@ raw sequencing data (`*.fq.gz`) and perform downstream analyses for the
 **An epigenetic blueprint for tomato breeding** paper. The workflow covers:
 
 - Raw read QC and organisation
-- WGBS / bisulfite sequencing processing
-- Pseudo–pan-genome and methylome comparison
-- DMR calling and methylation VCF generation
+- WGBS bisulfite sequencing processing
+- Pseudo-genome generation and methylome comparison
+- DMR calling and methylation VCF convertion
 - RNA-seq and phenotypic data processing
 - Downstream analyses, figures and visualisation
 
@@ -27,8 +27,8 @@ Top-level folders are numbered according to the main steps of the workflow:
   No raw data are stored in this public repository; this folder contains
   only helper scripts and metadata.
 
-- `02_get-pseudo-pan-genomes/`  
-  Construction of pseudo–pan-genomes and reference-related preprocessing.
+- `02_get-pseudo-genomes/`  
+  Construction of pseudo–genomes and reference-related preprocessing.
 
 - `03_biseq-processing/`  
   Bisulfite / WGBS processing: trimming, mapping, deduplication, and
@@ -58,10 +58,6 @@ Top-level folders are numbered according to the main steps of the workflow:
   Downstream statistical analyses, GWAS/DMR integration, model fitting, etc.  
   This folder often contains R / Python scripts that assume inputs produced by
   steps 01–09.
-
-- `11_figures/`  
-  Code to generate the main and supplementary figures (R scripts, ggplot,
-  etc.).
 
 - `12_data-visualization/`  
   Additional visualisation utilities and exploratory plots.
@@ -120,8 +116,6 @@ Once all upstream processing is complete, use the scripts in:
 - `10_data-analysis/` for statistical analyses and integration of methylation,
 genetics, and phenotypes.
 
-- `11_figures/` for reproducing the figures.
-
 - `12_data-visualization/` for additional plots.
 
 ---
@@ -138,9 +132,6 @@ the ENA project accession PRJNA397191 and PRJNA516166; and NCBI Short Read Archi
 
 ## Citation
 
-If you use this code or parts of this pipeline in your own work, please cite:
-The associated epiTom-NatPop publication (once available), and
-The relevant tools and methods used by the pipeline (bismark, samtools, etc.).
 Citation details will be added here when the manuscript is published.
 
 ---
