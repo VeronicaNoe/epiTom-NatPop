@@ -58,6 +58,9 @@ Top-level folders are numbered according to the main steps of the workflow:
   Downstream statistical analyses, GWAS/DMR integration, model fitting, etc.  
   This folder often contains R / Python scripts that assume inputs produced by
   steps 01–09.
+  
+- `11_extended-data-analysis/` for analyses and scripts associated with the
+  extended data figures.
 
 - `12_data-visualization/`  
   Additional visualisation utilities and exploratory plots.
