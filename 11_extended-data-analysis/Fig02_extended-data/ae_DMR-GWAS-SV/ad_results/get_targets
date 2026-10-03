@@ -1,0 +1,5 @@
+for dmr in C-DMR CG-DMR; do
+  for c in ch{01..12}; do
+    find "$dmr/$c/sig" -maxdepth 1 -type f -name '*.mQTL' -printf '%f\n'
+  done
+done | sed 's/\.mQTL$//' > all.sig.files.txt
