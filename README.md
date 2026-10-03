@@ -116,6 +116,9 @@ Once all upstream processing is complete, use the scripts in:
 - `10_data-analysis/` for statistical analyses and integration of methylation,
 genetics, and phenotypes.
 
+- `11_extended-data-analysis/` for analyses and scripts associated with the
+  extended data figures.
+
 - `12_data-visualization/` for additional plots.
 
 ---
