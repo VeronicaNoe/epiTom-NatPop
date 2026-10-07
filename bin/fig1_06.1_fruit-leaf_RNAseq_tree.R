@@ -7,9 +7,9 @@ suppressPackageStartupMessages({
   library(vegan)
   library(dendextend)
 })
-setwd("/mnt/disk2/vibanez/07_rnaseq-processing/07.3_counts")
-outDir<-"/home/IPS2/vibanez/Desktop/Q-lab/IBANEZ_etal_2024/Fig1/results/"
-outPlot<-"/home/IPS2/vibanez/Desktop/Q-lab/IBANEZ_etal_2024/Fig1/plots/"
+setwd("07_rnaseq-processing/07.3_counts")
+outDir<-"10_data-analysis/Fig1/results/"
+outPlot<-"10_data-analysis/Fig1/plots/"
 
 ############################################################
 ############### load expression count
